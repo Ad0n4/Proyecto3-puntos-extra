@@ -7,11 +7,11 @@ module input_controller (
     input  logic [3:0] key_value_i,
     input  logic       key_valid_i,
 
-    output logic [5:0] dividend_o,
-    output logic [3:0] divisor_o,
+    output logic [6:0] dividend_o,
+    output logic [4:0] divisor_o,
     output logic       valid_o,
 
-    output logic [5:0] current_value_o,
+    output logic [6:0] current_value_o,
     output logic       entering_divisor_o
 );
 
@@ -42,8 +42,8 @@ module input_controller (
     assign entering_divisor_o = (state_reg == WAIT_DIVISOR);
 
     assign current_value_o = (state_reg == WAIT_DIVIDEND)
-                            ? dividend_temp[5:0]
-                            : {1'b0, divisor_temp};
+                            ? dividend_temp[6:0]
+                            : {2'b00, divisor_temp};
 
     // =========================
     // LÓGICA NEXT VALUE
@@ -78,8 +78,8 @@ module input_controller (
             dividend_temp <= 7'd0;
             divisor_temp  <= 5'd0;
 
-            dividend_o    <= 6'd0;
-            divisor_o     <= 4'd0;
+            dividend_o    <= 7'd0;
+            divisor_o     <= 5'd0;
             valid_o       <= 1'b0;
 
         end else begin
@@ -93,8 +93,8 @@ module input_controller (
                     dividend_temp <= 7'd0;
                     divisor_temp  <= 5'd0;
 
-                    dividend_o    <= 6'd0;
-                    divisor_o     <= 4'd0;
+                    dividend_o    <= 7'd0;
+                    divisor_o     <= 5'd0;
                     valid_o       <= 1'b0;
                 end
                 else begin
@@ -117,8 +117,8 @@ module input_controller (
                                     divisor_temp <= divisor_next;
                             end
                             else if (is_confirm) begin
-                                dividend_o <= dividend_temp[5:0];
-                                divisor_o  <= divisor_temp[3:0];
+                                dividend_o <= dividend_temp[6:0];
+                                divisor_o  <= divisor_temp[4:0];
                                 valid_o    <= 1'b1;
 
                                 state_reg     <= WAIT_DIVIDEND;

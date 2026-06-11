@@ -19,16 +19,16 @@ module system_top #(
     logic [3:0] key_value;
     logic       key_valid;
 
-    logic [5:0] dividend;
-    logic [3:0] divisor;
+    logic [6:0] dividend;
+    logic [4:0] divisor;
     logic       input_valid;
 
-    logic [5:0] quotient;
-    logic [3:0] remainder;
+    logic [6:0] quotient;
+    logic [4:0] remainder;
 
     logic       select_reg;
 
-    logic [5:0] input_preview;
+    logic [6:0] input_preview;
     logic       entering_divisor;
 
     logic       result_ready;
