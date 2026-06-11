@@ -15,20 +15,20 @@ Info: Packing ALUs..
 Info: Packing LUT-FFs..
 Info: Packing non-LUT FFs..
 Info: Packing PLLs..
-Info: Checksum: 0x720c9f70
+Info: Checksum: 0x69fdd23c
 
 Info: Annotating ports with timing budgets for target frequency 27.00 MHz
-Info: Checksum: 0x720c9f70
+Info: Checksum: 0x69fdd23c
 
 Info: Device utilisation:
 Info: 	                 VCC:     1/    1   100%
-Info: 	               SLICE:  1613/ 8640    18%
+Info: 	               SLICE:  1629/ 8640    18%
 Info: 	                 IOB:    21/  274     7%
 Info: 	                ODDR:     0/  274     0%
-Info: 	           MUX2_LUT5:   382/ 4320     8%
-Info: 	           MUX2_LUT6:   181/ 2160     8%
-Info: 	           MUX2_LUT7:    82/ 1080     7%
-Info: 	           MUX2_LUT8:    34/ 1056     3%
+Info: 	           MUX2_LUT5:   383/ 4320     8%
+Info: 	           MUX2_LUT6:   183/ 2160     8%
+Info: 	           MUX2_LUT7:    85/ 1080     7%
+Info: 	           MUX2_LUT8:    36/ 1056     3%
 Info: 	                 GND:     1/    1   100%
 Info: 	                RAMW:     0/  270     0%
 Info: 	                 GSR:     1/    1   100%
@@ -36,165 +36,210 @@ Info: 	                 OSC:     0/    1     0%
 Info: 	                rPLL:     0/    2     0%
 
 Info: Placed 21 cells based on constraints.
-Info: Creating initial analytic placement for 572 cells, random placement wirelen = 24315.
-Info:     at initial placer iter 0, wirelen = 687
-Info:     at initial placer iter 1, wirelen = 591
-Info:     at initial placer iter 2, wirelen = 533
-Info:     at initial placer iter 3, wirelen = 529
-Info: Running main analytical placer, max placement attempts per cell = 670482.
-Info:     at iteration #1, type SLICE: wirelen solved = 803, spread = 9372, legal = 9383; time = 0.02s
-Info:     at iteration #1, type MUX2_LUT7: wirelen solved = 9304, spread = 9559, legal = 9587; time = 0.01s
-Info:     at iteration #1, type VCC: wirelen solved = 9587, spread = 9587, legal = 9587; time = 0.01s
-Info:     at iteration #1, type MUX2_LUT6: wirelen solved = 9415, spread = 9569, legal = 9558; time = 0.01s
-Info:     at iteration #1, type MUX2_LUT8: wirelen solved = 8938, spread = 8990, legal = 9204; time = 0.01s
-Info:     at iteration #1, type MUX2_LUT5: wirelen solved = 8649, spread = 8755, legal = 8735; time = 0.01s
-Info:     at iteration #1, type GND: wirelen solved = 8735, spread = 8735, legal = 8735; time = 0.01s
-Info:     at iteration #1, type GSR: wirelen solved = 8735, spread = 8735, legal = 8735; time = 0.01s
-Info:     at iteration #1, type ALL: wirelen solved = 630, spread = 7082, legal = 7275; time = 0.02s
-Info:     at iteration #2, type SLICE: wirelen solved = 2551, spread = 5928, legal = 6246; time = 0.02s
-Info:     at iteration #2, type MUX2_LUT7: wirelen solved = 6100, spread = 6163, legal = 6180; time = 0.01s
-Info:     at iteration #2, type VCC: wirelen solved = 6180, spread = 6180, legal = 6180; time = 0.01s
-Info:     at iteration #2, type MUX2_LUT6: wirelen solved = 6080, spread = 6165, legal = 6166; time = 0.01s
-Info:     at iteration #2, type MUX2_LUT8: wirelen solved = 5811, spread = 5917, legal = 6060; time = 0.01s
-Info:     at iteration #2, type MUX2_LUT5: wirelen solved = 5883, spread = 5933, legal = 5933; time = 0.01s
-Info:     at iteration #2, type GND: wirelen solved = 5933, spread = 5933, legal = 5933; time = 0.01s
-Info:     at iteration #2, type GSR: wirelen solved = 5933, spread = 5933, legal = 5933; time = 0.01s
-Info:     at iteration #2, type ALL: wirelen solved = 916, spread = 5333, legal = 5548; time = 0.02s
-Info:     at iteration #3, type SLICE: wirelen solved = 2607, spread = 4619, legal = 4891; time = 0.02s
-Info:     at iteration #3, type MUX2_LUT7: wirelen solved = 4764, spread = 4895, legal = 4931; time = 0.01s
-Info:     at iteration #3, type VCC: wirelen solved = 4931, spread = 4931, legal = 4931; time = 0.01s
-Info:     at iteration #3, type MUX2_LUT6: wirelen solved = 4803, spread = 4812, legal = 4829; time = 0.01s
-Info:     at iteration #3, type MUX2_LUT8: wirelen solved = 4597, spread = 4618, legal = 4758; time = 0.01s
-Info:     at iteration #3, type MUX2_LUT5: wirelen solved = 4634, spread = 4660, legal = 4678; time = 0.01s
-Info:     at iteration #3, type GND: wirelen solved = 4678, spread = 4678, legal = 4678; time = 0.01s
-Info:     at iteration #3, type GSR: wirelen solved = 4678, spread = 4678, legal = 4678; time = 0.01s
-Info:     at iteration #3, type ALL: wirelen solved = 1157, spread = 4563, legal = 4760; time = 0.02s
-Info:     at iteration #4, type SLICE: wirelen solved = 2452, spread = 4462, legal = 4615; time = 0.02s
-Info:     at iteration #4, type MUX2_LUT7: wirelen solved = 4558, spread = 4581, legal = 4604; time = 0.01s
-Info:     at iteration #4, type VCC: wirelen solved = 4604, spread = 4604, legal = 4604; time = 0.01s
-Info:     at iteration #4, type MUX2_LUT6: wirelen solved = 4467, spread = 4521, legal = 4528; time = 0.01s
-Info:     at iteration #4, type MUX2_LUT8: wirelen solved = 4370, spread = 4396, legal = 4521; time = 0.01s
-Info:     at iteration #4, type MUX2_LUT5: wirelen solved = 4324, spread = 4393, legal = 4384; time = 0.01s
-Info:     at iteration #4, type GND: wirelen solved = 4384, spread = 4384, legal = 4384; time = 0.01s
-Info:     at iteration #4, type GSR: wirelen solved = 4384, spread = 4384, legal = 4384; time = 0.01s
-Info:     at iteration #4, type ALL: wirelen solved = 1398, spread = 5368, legal = 5570; time = 0.02s
-Info:     at iteration #5, type SLICE: wirelen solved = 3211, spread = 4989, legal = 5140; time = 0.02s
-Info:     at iteration #5, type MUX2_LUT7: wirelen solved = 4913, spread = 4966, legal = 4983; time = 0.01s
-Info:     at iteration #5, type VCC: wirelen solved = 4983, spread = 4983, legal = 4983; time = 0.01s
-Info:     at iteration #5, type MUX2_LUT6: wirelen solved = 4768, spread = 4800, legal = 4824; time = 0.01s
-Info:     at iteration #5, type MUX2_LUT8: wirelen solved = 4632, spread = 4641, legal = 4776; time = 0.01s
-Info:     at iteration #5, type MUX2_LUT5: wirelen solved = 4537, spread = 4581, legal = 4592; time = 0.01s
-Info:     at iteration #5, type GND: wirelen solved = 4592, spread = 4592, legal = 4592; time = 0.01s
-Info:     at iteration #5, type GSR: wirelen solved = 4592, spread = 4592, legal = 4592; time = 0.01s
-Info:     at iteration #5, type ALL: wirelen solved = 1602, spread = 4534, legal = 4692; time = 0.02s
-Info:     at iteration #6, type SLICE: wirelen solved = 2697, spread = 4359, legal = 4665; time = 0.02s
-Info:     at iteration #6, type MUX2_LUT7: wirelen solved = 4529, spread = 4871, legal = 4910; time = 0.01s
-Info:     at iteration #6, type VCC: wirelen solved = 4910, spread = 4910, legal = 4910; time = 0.01s
-Info:     at iteration #6, type MUX2_LUT6: wirelen solved = 4781, spread = 4814, legal = 4815; time = 0.01s
-Info:     at iteration #6, type MUX2_LUT8: wirelen solved = 4588, spread = 4597, legal = 4706; time = 0.01s
-Info:     at iteration #6, type MUX2_LUT5: wirelen solved = 4593, spread = 4647, legal = 4654; time = 0.01s
-Info:     at iteration #6, type GND: wirelen solved = 4654, spread = 4654, legal = 4654; time = 0.01s
-Info:     at iteration #6, type GSR: wirelen solved = 4654, spread = 4654, legal = 4654; time = 0.01s
-Info:     at iteration #6, type ALL: wirelen solved = 1768, spread = 4840, legal = 5056; time = 0.02s
-Info:     at iteration #7, type SLICE: wirelen solved = 3341, spread = 4762, legal = 4874; time = 0.02s
-Info:     at iteration #7, type MUX2_LUT7: wirelen solved = 4596, spread = 4652, legal = 4703; time = 0.01s
-Info:     at iteration #7, type VCC: wirelen solved = 4703, spread = 4703, legal = 4703; time = 0.01s
-Info:     at iteration #7, type MUX2_LUT6: wirelen solved = 4500, spread = 4607, legal = 4615; time = 0.01s
-Info:     at iteration #7, type MUX2_LUT8: wirelen solved = 4450, spread = 4465, legal = 4607; time = 0.01s
-Info:     at iteration #7, type MUX2_LUT5: wirelen solved = 4359, spread = 4392, legal = 4406; time = 0.01s
-Info:     at iteration #7, type GND: wirelen solved = 4406, spread = 4406, legal = 4406; time = 0.01s
-Info:     at iteration #7, type GSR: wirelen solved = 4406, spread = 4406, legal = 4406; time = 0.01s
-Info:     at iteration #7, type ALL: wirelen solved = 1792, spread = 4103, legal = 4375; time = 0.02s
-Info:     at iteration #8, type SLICE: wirelen solved = 2791, spread = 4306, legal = 4656; time = 0.02s
-Info:     at iteration #8, type MUX2_LUT7: wirelen solved = 4532, spread = 4667, legal = 4732; time = 0.01s
-Info:     at iteration #8, type VCC: wirelen solved = 4732, spread = 4732, legal = 4732; time = 0.01s
-Info:     at iteration #8, type MUX2_LUT6: wirelen solved = 4607, spread = 4679, legal = 4685; time = 0.01s
-Info:     at iteration #8, type MUX2_LUT8: wirelen solved = 4564, spread = 4587, legal = 4761; time = 0.01s
-Info:     at iteration #8, type MUX2_LUT5: wirelen solved = 4558, spread = 4627, legal = 4660; time = 0.01s
-Info:     at iteration #8, type GND: wirelen solved = 4660, spread = 4660, legal = 4660; time = 0.01s
-Info:     at iteration #8, type GSR: wirelen solved = 4660, spread = 4660, legal = 4660; time = 0.01s
-Info:     at iteration #8, type ALL: wirelen solved = 1919, spread = 4551, legal = 4838; time = 0.02s
-Info:     at iteration #9, type SLICE: wirelen solved = 3106, spread = 4412, legal = 4783; time = 0.02s
-Info:     at iteration #9, type MUX2_LUT7: wirelen solved = 4647, spread = 4796, legal = 4858; time = 0.01s
-Info:     at iteration #9, type VCC: wirelen solved = 4858, spread = 4858, legal = 4858; time = 0.01s
-Info:     at iteration #9, type MUX2_LUT6: wirelen solved = 4695, spread = 4786, legal = 4802; time = 0.01s
-Info:     at iteration #9, type MUX2_LUT8: wirelen solved = 4698, spread = 4722, legal = 4795; time = 0.01s
-Info:     at iteration #9, type MUX2_LUT5: wirelen solved = 4446, spread = 4521, legal = 4538; time = 0.01s
-Info:     at iteration #9, type GND: wirelen solved = 4538, spread = 4538, legal = 4538; time = 0.01s
-Info:     at iteration #9, type GSR: wirelen solved = 4538, spread = 4538, legal = 4538; time = 0.01s
-Info:     at iteration #9, type ALL: wirelen solved = 1974, spread = 4631, legal = 4772; time = 0.02s
-Info:     at iteration #10, type SLICE: wirelen solved = 3158, spread = 4440, legal = 4739; time = 0.02s
-Info:     at iteration #10, type MUX2_LUT7: wirelen solved = 4567, spread = 4681, legal = 4699; time = 0.01s
-Info:     at iteration #10, type VCC: wirelen solved = 4699, spread = 4699, legal = 4699; time = 0.01s
-Info:     at iteration #10, type MUX2_LUT6: wirelen solved = 4517, spread = 4624, legal = 4651; time = 0.01s
-Info:     at iteration #10, type MUX2_LUT8: wirelen solved = 4545, spread = 4545, legal = 4623; time = 0.01s
-Info:     at iteration #10, type MUX2_LUT5: wirelen solved = 4363, spread = 4419, legal = 4441; time = 0.01s
-Info:     at iteration #10, type GND: wirelen solved = 4441, spread = 4441, legal = 4441; time = 0.01s
-Info:     at iteration #10, type GSR: wirelen solved = 4441, spread = 4441, legal = 4441; time = 0.01s
-Info:     at iteration #10, type ALL: wirelen solved = 2010, spread = 4528, legal = 4648; time = 0.02s
-Info:     at iteration #11, type SLICE: wirelen solved = 3106, spread = 4273, legal = 4486; time = 0.02s
-Info:     at iteration #11, type MUX2_LUT7: wirelen solved = 4258, spread = 4390, legal = 4478; time = 0.01s
-Info:     at iteration #11, type VCC: wirelen solved = 4478, spread = 4478, legal = 4478; time = 0.01s
-Info:     at iteration #11, type MUX2_LUT6: wirelen solved = 4305, spread = 4359, legal = 4381; time = 0.01s
-Info:     at iteration #11, type MUX2_LUT8: wirelen solved = 4300, spread = 4306, legal = 4425; time = 0.01s
-Info:     at iteration #11, type MUX2_LUT5: wirelen solved = 4267, spread = 4362, legal = 4376; time = 0.01s
-Info:     at iteration #11, type GND: wirelen solved = 4376, spread = 4376, legal = 4376; time = 0.01s
-Info:     at iteration #11, type GSR: wirelen solved = 4376, spread = 4376, legal = 4376; time = 0.01s
-Info:     at iteration #11, type ALL: wirelen solved = 2055, spread = 4646, legal = 4858; time = 0.02s
-Info:     at iteration #12, type SLICE: wirelen solved = 3223, spread = 4522, legal = 4812; time = 0.02s
-Info:     at iteration #12, type MUX2_LUT7: wirelen solved = 4621, spread = 4725, legal = 4803; time = 0.02s
-Info:     at iteration #12, type VCC: wirelen solved = 4803, spread = 4803, legal = 4803; time = 0.02s
-Info:     at iteration #12, type MUX2_LUT6: wirelen solved = 4580, spread = 4696, legal = 4708; time = 0.02s
-Info:     at iteration #12, type MUX2_LUT8: wirelen solved = 4625, spread = 4639, legal = 4720; time = 0.02s
-Info:     at iteration #12, type MUX2_LUT5: wirelen solved = 4518, spread = 4606, legal = 4629; time = 0.02s
-Info:     at iteration #12, type GND: wirelen solved = 4629, spread = 4629, legal = 4629; time = 0.02s
-Info:     at iteration #12, type GSR: wirelen solved = 4629, spread = 4629, legal = 4629; time = 0.01s
-Info:     at iteration #12, type ALL: wirelen solved = 2214, spread = 4635, legal = 4868; time = 0.02s
-Info: HeAP Placer Time: 1.40s
-Info:   of which solving equations: 1.03s
-Info:   of which spreading cells: 0.07s
-Info:   of which strict legalisation: 0.11s
+Info: Creating initial analytic placement for 580 cells, random placement wirelen = 24116.
+Info:     at initial placer iter 0, wirelen = 619
+Info:     at initial placer iter 1, wirelen = 535
+Info:     at initial placer iter 2, wirelen = 496
+Info:     at initial placer iter 3, wirelen = 493
+Info: Running main analytical placer, max placement attempts per cell = 684450.
+Info:     at iteration #1, type SLICE: wirelen solved = 752, spread = 7520, legal = 7520; time = 0.02s
+Info:     at iteration #1, type MUX2_LUT8: wirelen solved = 7044, spread = 7129, legal = 7297; time = 0.01s
+Info:     at iteration #1, type MUX2_LUT7: wirelen solved = 6967, spread = 7313, legal = 7329; time = 0.01s
+Info:     at iteration #1, type MUX2_LUT5: wirelen solved = 6957, spread = 7151, legal = 7163; time = 0.01s
+Info:     at iteration #1, type MUX2_LUT6: wirelen solved = 6873, spread = 6994, legal = 7018; time = 0.01s
+Info:     at iteration #1, type VCC: wirelen solved = 7018, spread = 7018, legal = 7018; time = 0.01s
+Info:     at iteration #1, type GND: wirelen solved = 7018, spread = 7018, legal = 7018; time = 0.01s
+Info:     at iteration #1, type GSR: wirelen solved = 7018, spread = 7018, legal = 7018; time = 0.01s
+Info:     at iteration #1, type ALL: wirelen solved = 544, spread = 6865, legal = 7061; time = 0.03s
+Info:     at iteration #2, type SLICE: wirelen solved = 2667, spread = 6347, legal = 6669; time = 0.02s
+Info:     at iteration #2, type MUX2_LUT8: wirelen solved = 6251, spread = 6287, legal = 6407; time = 0.01s
+Info:     at iteration #2, type MUX2_LUT7: wirelen solved = 6121, spread = 6121, legal = 6151; time = 0.01s
+Info:     at iteration #2, type MUX2_LUT5: wirelen solved = 5946, spread = 5982, legal = 5984; time = 0.01s
+Info:     at iteration #2, type MUX2_LUT6: wirelen solved = 5767, spread = 5807, legal = 5812; time = 0.01s
+Info:     at iteration #2, type VCC: wirelen solved = 5812, spread = 5812, legal = 5812; time = 0.01s
+Info:     at iteration #2, type GND: wirelen solved = 5812, spread = 5812, legal = 5812; time = 0.01s
+Info:     at iteration #2, type GSR: wirelen solved = 5812, spread = 5812, legal = 5812; time = 0.01s
+Info:     at iteration #2, type ALL: wirelen solved = 843, spread = 5406, legal = 5707; time = 0.02s
+Info:     at iteration #3, type SLICE: wirelen solved = 2389, spread = 4728, legal = 5042; time = 0.02s
+Info:     at iteration #3, type MUX2_LUT8: wirelen solved = 4894, spread = 4906, legal = 5010; time = 0.01s
+Info:     at iteration #3, type MUX2_LUT7: wirelen solved = 4943, spread = 4985, legal = 5030; time = 0.01s
+Info:     at iteration #3, type MUX2_LUT5: wirelen solved = 4944, spread = 5002, legal = 5008; time = 0.01s
+Info:     at iteration #3, type MUX2_LUT6: wirelen solved = 4757, spread = 4771, legal = 4797; time = 0.01s
+Info:     at iteration #3, type VCC: wirelen solved = 4797, spread = 4797, legal = 4797; time = 0.01s
+Info:     at iteration #3, type GND: wirelen solved = 4797, spread = 4797, legal = 4797; time = 0.01s
+Info:     at iteration #3, type GSR: wirelen solved = 4797, spread = 4797, legal = 4797; time = 0.01s
+Info:     at iteration #3, type ALL: wirelen solved = 996, spread = 4899, legal = 5001; time = 0.02s
+Info:     at iteration #4, type SLICE: wirelen solved = 2545, spread = 4734, legal = 4931; time = 0.02s
+Info:     at iteration #4, type MUX2_LUT8: wirelen solved = 4754, spread = 4750, legal = 4862; time = 0.01s
+Info:     at iteration #4, type MUX2_LUT7: wirelen solved = 4732, spread = 4770, legal = 4842; time = 0.01s
+Info:     at iteration #4, type MUX2_LUT5: wirelen solved = 4752, spread = 4783, legal = 4792; time = 0.01s
+Info:     at iteration #4, type MUX2_LUT6: wirelen solved = 4562, spread = 4623, legal = 4626; time = 0.01s
+Info:     at iteration #4, type VCC: wirelen solved = 4626, spread = 4626, legal = 4626; time = 0.01s
+Info:     at iteration #4, type GND: wirelen solved = 4626, spread = 4626, legal = 4626; time = 0.01s
+Info:     at iteration #4, type GSR: wirelen solved = 4626, spread = 4626, legal = 4626; time = 0.01s
+Info:     at iteration #4, type ALL: wirelen solved = 1226, spread = 4544, legal = 4839; time = 0.02s
+Info:     at iteration #5, type SLICE: wirelen solved = 2659, spread = 5132, legal = 5247; time = 0.02s
+Info:     at iteration #5, type MUX2_LUT8: wirelen solved = 5026, spread = 5035, legal = 5121; time = 0.01s
+Info:     at iteration #5, type MUX2_LUT7: wirelen solved = 5017, spread = 5103, legal = 5148; time = 0.01s
+Info:     at iteration #5, type MUX2_LUT5: wirelen solved = 5080, spread = 5090, legal = 5101; time = 0.01s
+Info:     at iteration #5, type MUX2_LUT6: wirelen solved = 4933, spread = 4966, legal = 4971; time = 0.01s
+Info:     at iteration #5, type VCC: wirelen solved = 4971, spread = 4971, legal = 4971; time = 0.01s
+Info:     at iteration #5, type GND: wirelen solved = 4971, spread = 4971, legal = 4971; time = 0.01s
+Info:     at iteration #5, type GSR: wirelen solved = 4971, spread = 4971, legal = 4971; time = 0.01s
+Info:     at iteration #5, type ALL: wirelen solved = 1443, spread = 5393, legal = 5561; time = 0.02s
+Info:     at iteration #6, type SLICE: wirelen solved = 2760, spread = 4681, legal = 4959; time = 0.02s
+Info:     at iteration #6, type MUX2_LUT8: wirelen solved = 4765, spread = 4777, legal = 4891; time = 0.01s
+Info:     at iteration #6, type MUX2_LUT7: wirelen solved = 4808, spread = 4835, legal = 4883; time = 0.01s
+Info:     at iteration #6, type MUX2_LUT5: wirelen solved = 4809, spread = 4857, legal = 4863; time = 0.01s
+Info:     at iteration #6, type MUX2_LUT6: wirelen solved = 4720, spread = 4764, legal = 4769; time = 0.01s
+Info:     at iteration #6, type VCC: wirelen solved = 4769, spread = 4769, legal = 4769; time = 0.01s
+Info:     at iteration #6, type GND: wirelen solved = 4769, spread = 4769, legal = 4769; time = 0.01s
+Info:     at iteration #6, type GSR: wirelen solved = 4769, spread = 4769, legal = 4769; time = 0.01s
+Info:     at iteration #6, type ALL: wirelen solved = 1641, spread = 4857, legal = 4999; time = 0.02s
+Info:     at iteration #7, type SLICE: wirelen solved = 2872, spread = 4669, legal = 4866; time = 0.02s
+Info:     at iteration #7, type MUX2_LUT8: wirelen solved = 4614, spread = 4646, legal = 4695; time = 0.01s
+Info:     at iteration #7, type MUX2_LUT7: wirelen solved = 4572, spread = 4597, legal = 4644; time = 0.01s
+Info:     at iteration #7, type MUX2_LUT5: wirelen solved = 4552, spread = 4607, legal = 4621; time = 0.01s
+Info:     at iteration #7, type MUX2_LUT6: wirelen solved = 4386, spread = 4424, legal = 4457; time = 0.01s
+Info:     at iteration #7, type VCC: wirelen solved = 4457, spread = 4457, legal = 4457; time = 0.01s
+Info:     at iteration #7, type GND: wirelen solved = 4457, spread = 4457, legal = 4457; time = 0.01s
+Info:     at iteration #7, type GSR: wirelen solved = 4457, spread = 4457, legal = 4457; time = 0.01s
+Info:     at iteration #7, type ALL: wirelen solved = 1792, spread = 4860, legal = 5031; time = 0.02s
+Info:     at iteration #8, type SLICE: wirelen solved = 3071, spread = 4484, legal = 4636; time = 0.02s
+Info:     at iteration #8, type MUX2_LUT8: wirelen solved = 4423, spread = 4436, legal = 4522; time = 0.01s
+Info:     at iteration #8, type MUX2_LUT7: wirelen solved = 4444, spread = 4495, legal = 4518; time = 0.01s
+Info:     at iteration #8, type MUX2_LUT5: wirelen solved = 4408, spread = 4417, legal = 4424; time = 0.01s
+Info:     at iteration #8, type MUX2_LUT6: wirelen solved = 4234, spread = 4241, legal = 4252; time = 0.01s
+Info:     at iteration #8, type VCC: wirelen solved = 4252, spread = 4252, legal = 4252; time = 0.01s
+Info:     at iteration #8, type GND: wirelen solved = 4252, spread = 4252, legal = 4252; time = 0.01s
+Info:     at iteration #8, type GSR: wirelen solved = 4252, spread = 4252, legal = 4252; time = 0.01s
+Info:     at iteration #8, type ALL: wirelen solved = 1918, spread = 4514, legal = 4659; time = 0.02s
+Info:     at iteration #9, type SLICE: wirelen solved = 2885, spread = 4224, legal = 4495; time = 0.02s
+Info:     at iteration #9, type MUX2_LUT8: wirelen solved = 4364, spread = 4391, legal = 4475; time = 0.01s
+Info:     at iteration #9, type MUX2_LUT7: wirelen solved = 4424, spread = 4470, legal = 4496; time = 0.01s
+Info:     at iteration #9, type MUX2_LUT5: wirelen solved = 4426, spread = 4605, legal = 4606; time = 0.01s
+Info:     at iteration #9, type MUX2_LUT6: wirelen solved = 4451, spread = 4586, legal = 4597; time = 0.01s
+Info:     at iteration #9, type VCC: wirelen solved = 4597, spread = 4597, legal = 4597; time = 0.01s
+Info:     at iteration #9, type GND: wirelen solved = 4597, spread = 4597, legal = 4597; time = 0.01s
+Info:     at iteration #9, type GSR: wirelen solved = 4597, spread = 4597, legal = 4597; time = 0.01s
+Info:     at iteration #9, type ALL: wirelen solved = 1985, spread = 4194, legal = 4484; time = 0.02s
+Info:     at iteration #10, type SLICE: wirelen solved = 2836, spread = 4058, legal = 4380; time = 0.02s
+Info:     at iteration #10, type MUX2_LUT8: wirelen solved = 4270, spread = 4280, legal = 4410; time = 0.01s
+Info:     at iteration #10, type MUX2_LUT7: wirelen solved = 4369, spread = 4398, legal = 4424; time = 0.01s
+Info:     at iteration #10, type MUX2_LUT5: wirelen solved = 4362, spread = 4550, legal = 4559; time = 0.01s
+Info:     at iteration #10, type MUX2_LUT6: wirelen solved = 4433, spread = 4587, legal = 4610; time = 0.01s
+Info:     at iteration #10, type VCC: wirelen solved = 4610, spread = 4610, legal = 4610; time = 0.01s
+Info:     at iteration #10, type GND: wirelen solved = 4610, spread = 4610, legal = 4610; time = 0.01s
+Info:     at iteration #10, type GSR: wirelen solved = 4610, spread = 4610, legal = 4610; time = 0.02s
+Info:     at iteration #10, type ALL: wirelen solved = 2089, spread = 4240, legal = 4538; time = 0.02s
+Info:     at iteration #11, type SLICE: wirelen solved = 2801, spread = 4212, legal = 4434; time = 0.02s
+Info:     at iteration #11, type MUX2_LUT8: wirelen solved = 4265, spread = 4291, legal = 4371; time = 0.01s
+Info:     at iteration #11, type MUX2_LUT7: wirelen solved = 4341, spread = 4380, legal = 4399; time = 0.01s
+Info:     at iteration #11, type MUX2_LUT5: wirelen solved = 4335, spread = 4480, legal = 4494; time = 0.01s
+Info:     at iteration #11, type MUX2_LUT6: wirelen solved = 4383, spread = 4499, legal = 4496; time = 0.01s
+Info:     at iteration #11, type VCC: wirelen solved = 4496, spread = 4496, legal = 4496; time = 0.01s
+Info:     at iteration #11, type GND: wirelen solved = 4496, spread = 4496, legal = 4496; time = 0.01s
+Info:     at iteration #11, type GSR: wirelen solved = 4496, spread = 4496, legal = 4496; time = 0.01s
+Info:     at iteration #11, type ALL: wirelen solved = 2081, spread = 4151, legal = 4397; time = 0.02s
+Info:     at iteration #12, type SLICE: wirelen solved = 2845, spread = 4197, legal = 4417; time = 0.02s
+Info:     at iteration #12, type MUX2_LUT8: wirelen solved = 4243, spread = 4289, legal = 4365; time = 0.01s
+Info:     at iteration #12, type MUX2_LUT7: wirelen solved = 4291, spread = 4307, legal = 4333; time = 0.01s
+Info:     at iteration #12, type MUX2_LUT5: wirelen solved = 4245, spread = 4296, legal = 4315; time = 0.01s
+Info:     at iteration #12, type MUX2_LUT6: wirelen solved = 4180, spread = 4335, legal = 4346; time = 0.01s
+Info:     at iteration #12, type VCC: wirelen solved = 4346, spread = 4346, legal = 4346; time = 0.01s
+Info:     at iteration #12, type GND: wirelen solved = 4346, spread = 4346, legal = 4346; time = 0.01s
+Info:     at iteration #12, type GSR: wirelen solved = 4346, spread = 4346, legal = 4346; time = 0.01s
+Info:     at iteration #12, type ALL: wirelen solved = 2135, spread = 4057, legal = 4283; time = 0.02s
+Info:     at iteration #13, type SLICE: wirelen solved = 2844, spread = 3988, legal = 4338; time = 0.02s
+Info:     at iteration #13, type MUX2_LUT8: wirelen solved = 4247, spread = 4284, legal = 4340; time = 0.03s
+Info:     at iteration #13, type MUX2_LUT7: wirelen solved = 4290, spread = 4340, legal = 4346; time = 0.02s
+Info:     at iteration #13, type MUX2_LUT5: wirelen solved = 4255, spread = 4281, legal = 4288; time = 0.02s
+Info:     at iteration #13, type MUX2_LUT6: wirelen solved = 4160, spread = 4220, legal = 4247; time = 0.03s
+Info:     at iteration #13, type VCC: wirelen solved = 4247, spread = 4247, legal = 4247; time = 0.02s
+Info:     at iteration #13, type GND: wirelen solved = 4247, spread = 4247, legal = 4247; time = 0.02s
+Info:     at iteration #13, type GSR: wirelen solved = 4247, spread = 4247, legal = 4247; time = 0.01s
+Info:     at iteration #13, type ALL: wirelen solved = 2212, spread = 4458, legal = 4608; time = 0.02s
+Info:     at iteration #14, type SLICE: wirelen solved = 3384, spread = 4536, legal = 4769; time = 0.03s
+Info:     at iteration #14, type MUX2_LUT8: wirelen solved = 4686, spread = 4697, legal = 4790; time = 0.02s
+Info:     at iteration #14, type MUX2_LUT7: wirelen solved = 4539, spread = 4656, legal = 4707; time = 0.02s
+Info:     at iteration #14, type MUX2_LUT5: wirelen solved = 4491, spread = 4613, legal = 4637; time = 0.02s
+Info:     at iteration #14, type MUX2_LUT6: wirelen solved = 4480, spread = 4595, legal = 4594; time = 0.02s
+Info:     at iteration #14, type VCC: wirelen solved = 4594, spread = 4594, legal = 4594; time = 0.01s
+Info:     at iteration #14, type GND: wirelen solved = 4594, spread = 4594, legal = 4594; time = 0.01s
+Info:     at iteration #14, type GSR: wirelen solved = 4594, spread = 4594, legal = 4594; time = 0.01s
+Info:     at iteration #14, type ALL: wirelen solved = 2264, spread = 4193, legal = 4410; time = 0.02s
+Info:     at iteration #15, type SLICE: wirelen solved = 3122, spread = 4398, legal = 4609; time = 0.03s
+Info:     at iteration #15, type MUX2_LUT8: wirelen solved = 4475, spread = 4499, legal = 4568; time = 0.02s
+Info:     at iteration #15, type MUX2_LUT7: wirelen solved = 4525, spread = 4562, legal = 4594; time = 0.02s
+Info:     at iteration #15, type MUX2_LUT5: wirelen solved = 4343, spread = 4374, legal = 4375; time = 0.01s
+Info:     at iteration #15, type MUX2_LUT6: wirelen solved = 4240, spread = 4312, legal = 4331; time = 0.01s
+Info:     at iteration #15, type VCC: wirelen solved = 4331, spread = 4331, legal = 4331; time = 0.01s
+Info:     at iteration #15, type GND: wirelen solved = 4331, spread = 4331, legal = 4331; time = 0.01s
+Info:     at iteration #15, type GSR: wirelen solved = 4331, spread = 4331, legal = 4331; time = 0.01s
+Info:     at iteration #15, type ALL: wirelen solved = 2320, spread = 4503, legal = 4689; time = 0.02s
+Info:     at iteration #16, type SLICE: wirelen solved = 3357, spread = 4278, legal = 4502; time = 0.02s
+Info:     at iteration #16, type MUX2_LUT8: wirelen solved = 4409, spread = 4439, legal = 4473; time = 0.02s
+Info:     at iteration #16, type MUX2_LUT7: wirelen solved = 4373, spread = 4439, legal = 4457; time = 0.01s
+Info:     at iteration #16, type MUX2_LUT5: wirelen solved = 4307, spread = 4373, legal = 4381; time = 0.01s
+Info:     at iteration #16, type MUX2_LUT6: wirelen solved = 4212, spread = 4305, legal = 4334; time = 0.01s
+Info:     at iteration #16, type VCC: wirelen solved = 4334, spread = 4334, legal = 4334; time = 0.01s
+Info:     at iteration #16, type GND: wirelen solved = 4334, spread = 4334, legal = 4334; time = 0.01s
+Info:     at iteration #16, type GSR: wirelen solved = 4334, spread = 4334, legal = 4334; time = 0.01s
+Info:     at iteration #16, type ALL: wirelen solved = 2416, spread = 4471, legal = 4565; time = 0.02s
+Info:     at iteration #17, type SLICE: wirelen solved = 3358, spread = 4489, legal = 4648; time = 0.02s
+Info:     at iteration #17, type MUX2_LUT8: wirelen solved = 4545, spread = 4556, legal = 4635; time = 0.01s
+Info:     at iteration #17, type MUX2_LUT7: wirelen solved = 4567, spread = 4593, legal = 4641; time = 0.01s
+Info:     at iteration #17, type MUX2_LUT5: wirelen solved = 4485, spread = 4522, legal = 4521; time = 0.01s
+Info:     at iteration #17, type MUX2_LUT6: wirelen solved = 4312, spread = 4332, legal = 4331; time = 0.01s
+Info:     at iteration #17, type VCC: wirelen solved = 4331, spread = 4331, legal = 4331; time = 0.01s
+Info:     at iteration #17, type GND: wirelen solved = 4331, spread = 4331, legal = 4331; time = 0.01s
+Info:     at iteration #17, type GSR: wirelen solved = 4331, spread = 4331, legal = 4331; time = 0.01s
+Info:     at iteration #17, type ALL: wirelen solved = 2431, spread = 4366, legal = 4577; time = 0.02s
+Info: HeAP Placer Time: 2.19s
+Info:   of which solving equations: 1.64s
+Info:   of which spreading cells: 0.10s
+Info:   of which strict legalisation: 0.15s
 
 Info: Running simulated annealing placer for refinement.
-Info:   at iteration #1: temp = 0.000000, timing cost = 484, wirelen = 4375
-Info:   at iteration #5: temp = 0.000000, timing cost = 281, wirelen = 2918
-Info:   at iteration #10: temp = 0.000000, timing cost = 267, wirelen = 2679
-Info:   at iteration #15: temp = 0.000000, timing cost = 262, wirelen = 2579
-Info:   at iteration #20: temp = 0.000000, timing cost = 259, wirelen = 2531
-Info:   at iteration #25: temp = 0.000000, timing cost = 258, wirelen = 2479
-Info:   at iteration #29: temp = 0.000000, timing cost = 258, wirelen = 2460 
-Info: SA placement time 4.26s
+Info:   at iteration #1: temp = 0.000000, timing cost = 593, wirelen = 4283
+Info:   at iteration #5: temp = 0.000000, timing cost = 353, wirelen = 3048
+Info:   at iteration #10: temp = 0.000000, timing cost = 342, wirelen = 2793
+Info:   at iteration #15: temp = 0.000000, timing cost = 333, wirelen = 2711
+Info:   at iteration #20: temp = 0.000000, timing cost = 339, wirelen = 2628
+Info:   at iteration #25: temp = 0.000000, timing cost = 336, wirelen = 2585
+Info:   at iteration #27: temp = 0.000000, timing cost = 336, wirelen = 2576 
+Info: SA placement time 3.74s
 
-Info: Max frequency for clock 'display_inst.clk': 23.67 MHz (FAIL at 27.00 MHz)
+Info: Max frequency for clock 'display_inst.clk': 25.02 MHz (FAIL at 27.00 MHz)
 
-Info: Max delay <async>                  -> <async>                 : 15.60 ns
-Info: Max delay <async>                  -> posedge display_inst.clk: 4.00 ns
-Info: Max delay posedge display_inst.clk -> <async>                 : 73.48 ns
+Info: Max delay <async>                  -> <async>                 : 17.60 ns
+Info: Max delay <async>                  -> posedge display_inst.clk: 5.20 ns
+Info: Max delay posedge display_inst.clk -> <async>                 : 75.58 ns
 
 Info: Slack histogram:
 Info:  legend: * represents 10 endpoint(s)
 Info:          + represents [1,10) endpoint(s)
-Info: [-36440, -32809) |+
-Info: [-32809, -29178) |**+
-Info: [-29178, -25547) |+
-Info: [-25547, -21916) | 
-Info: [-21916, -18285) |+
-Info: [-18285, -14654) |+
-Info: [-14654, -11023) |*+
-Info: [-11023,  -7392) |***+
-Info: [ -7392,  -3761) |****+
-Info: [ -3761,   -130) |****+
-Info: [  -130,   3501) |********+
-Info: [  3501,   7132) |*******+
-Info: [  7132,  10763) |*******+
-Info: [ 10763,  14394) |********+
-Info: [ 14394,  18025) |**********+
-Info: [ 18025,  21656) |******+
-Info: [ 21656,  25287) |*************+
-Info: [ 25287,  28918) |****************+
-Info: [ 28918,  32549) |******************+
-Info: [ 32549,  36180) |************************************************************ 
-Info: Checksum: 0x0981756b
+Info: [-38539, -34803) |+
+Info: [-34803, -31067) |***+
+Info: [-31067, -27331) | 
+Info: [-27331, -23595) | 
+Info: [-23595, -19859) |+
+Info: [-19859, -16123) |+
+Info: [-16123, -12387) |*+
+Info: [-12387,  -8651) |*+
+Info: [ -8651,  -4915) |*******+
+Info: [ -4915,  -1179) |******+
+Info: [ -1179,   2557) |*******+
+Info: [  2557,   6293) |************ 
+Info: [  6293,  10029) |*********+
+Info: [ 10029,  13765) |********+
+Info: [ 13765,  17501) |**********+
+Info: [ 17501,  21237) |*******+
+Info: [ 21237,  24973) |***********+
+Info: [ 24973,  28709) |***************+
+Info: [ 28709,  32445) |********************+
+Info: [ 32445,  36181) |************************************************************ 
+Info: Checksum: 0x9c8f038e
 Info: Find global nets...
 Info: Routing globals...
 Info:   Route net display_inst.clk, use clock #0.
@@ -202,504 +247,509 @@ Info:   Net display_inst.clk is routed.
 
 Info: Routing..
 Info: Setting up routing queue.
-Info: Routing 5312 arcs.
+Info: Routing 5387 arcs.
 Info:            |   (re-)routed arcs  |   delta    | remaining|       time spent     |
 Info:    IterCnt |  w/ripup   wo/ripup |  w/r  wo/r |      arcs| batch(sec) total(sec)|
-Info:       1000 |       98        901 |   98   901 |      4541|       0.24       0.24|
-Info:       2000 |      161       1838 |   63   937 |      3633|       2.94       3.17|
-Info:       3000 |      192       2807 |   31   969 |      2692|       4.37       7.55|
-Info:       4000 |      239       3760 |   47   953 |      1774|       4.48      12.03|
-Info:       5000 |      323       4676 |   84   916 |       944|       4.44      16.47|
-Info:       6000 |      423       5576 |  100   900 |        84|       4.67      21.14|
-Info:       6088 |      427       5661 |    4    85 |         0|       0.51      21.65|
+Info:       1000 |       90        909 |   90   909 |      4591|       0.23       0.23|
+Info:       2000 |      111       1888 |   21   979 |      3636|       2.66       2.89|
+Info:       3000 |      145       2854 |   34   966 |      2712|       4.63       7.52|
+Info:       4000 |      196       3803 |   51   949 |      1789|       4.81      12.33|
+Info:       5000 |      277       4722 |   81   919 |       920|       4.67      17.00|
+Info:       6000 |      408       5591 |  131   869 |       131|       3.83      20.82|
+Info:       6153 |      420       5733 |   12   142 |         0|       0.61      21.43|
 Info: Routing complete.
-Info: Router1 time 21.65s
-Info: Checksum: 0x5480b8e5
+Info: Router1 time 21.43s
+Info: Checksum: 0x380b3d3a
 
 Info: Critical path report for clock 'display_inst.clk' (posedge -> posedge):
 Info: curr total
 Info:  0.5  0.5  Source divider_inst.comb_inst.stage_0.row_inst.gen_cells[4].cell_inst.b_i_DFFCE_Q_DFFLC.Q
-Info:  0.9  1.3    Net divider_inst.divisor_reg[4] budget 36.579037 ns (4,1) -> (5,2)
-Info:                Sink divider_inst.comb_inst.stage_6.row_inst.gen_cells[0].cell_inst.r_i_LUT4_I2_5_LC.B
+Info:  0.9  1.3    Net divider_inst.divisor_reg[4] budget 36.579037 ns (9,2) -> (10,3)
+Info:                Sink divider_inst.comb_inst.stage_3.row_inst.gen_cells[0].cell_inst.r_i_LUT2_I0_F_MUX2_LUT8_O_2_I0_MUX2_LUT7_O_I1_MUX2_LUT6_O_I1_MUX2_LUT5_O_I1_LUT4_F_LC.B
 Info:                Defined in:
 Info:                  /home/adonay/Downloads/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:130.20-130.21
-Info:  1.1  2.4  Source divider_inst.comb_inst.stage_6.row_inst.gen_cells[0].cell_inst.r_i_LUT4_I2_5_LC.F
-Info:  0.3  2.8    Net divider_inst.comb_inst.stage_6.row_inst.gen_cells[0].cell_inst.r_i_LUT4_I2_5_F budget 5.618506 ns (5,2) -> (5,2)
-Info:                Sink divider_inst.comb_inst.stage_4.row_inst.gen_cells[0].cell_inst.r_i_MUX2_LUT5_S0_4_LC.I1
+Info:  1.1  2.4  Source divider_inst.comb_inst.stage_3.row_inst.gen_cells[0].cell_inst.r_i_LUT2_I0_F_MUX2_LUT8_O_2_I0_MUX2_LUT7_O_I1_MUX2_LUT6_O_I1_MUX2_LUT5_O_I1_LUT4_F_LC.F
+Info:  0.3  2.8    Net divider_inst.comb_inst.stage_3.row_inst.gen_cells[0].cell_inst.r_i_LUT2_I0_F_MUX2_LUT8_O_2_I0_MUX2_LUT7_O_I1_MUX2_LUT6_O_I1_MUX2_LUT5_O_I1 budget 5.618506 ns (10,3) -> (10,3)
+Info:                Sink divider_inst.comb_inst.stage_3.row_inst.gen_cells[0].cell_inst.r_i_LUT2_I0_F_MUX2_LUT8_O_2_I0_MUX2_LUT7_O_I1_MUX2_LUT6_O_I1_MUX2_LUT5_O_LC.I1
 Info:                Defined in:
 Info:                  /home/adonay/Downloads/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:170.42-170.67
 Info:                  /home/adonay/Downloads/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:165.42-165.67
 Info:                  /home/adonay/Downloads/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:159.41-159.66
 Info:                  /home/adonay/Downloads/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:151.13-151.15
-Info:  0.2  3.0  Source divider_inst.comb_inst.stage_4.row_inst.gen_cells[0].cell_inst.r_i_MUX2_LUT5_S0_4_LC.OF
-Info:  0.3  3.3    Net divider_inst.comb_inst.stage_4.row_inst.gen_cells[0].cell_inst.r_i_MUX2_LUT5_S0_4_O budget 5.618506 ns (5,2) -> (5,2)
-Info:                Sink divider_inst.comb_inst.stage_4.row_inst.gen_cells[0].cell_inst.r_i_MUX2_LUT5_S0_5_O_MUX2_LUT6_I0_LC.I1
+Info:  0.2  3.0  Source divider_inst.comb_inst.stage_3.row_inst.gen_cells[0].cell_inst.r_i_LUT2_I0_F_MUX2_LUT8_O_2_I0_MUX2_LUT7_O_I1_MUX2_LUT6_O_I1_MUX2_LUT5_O_LC.OF
+Info:  0.3  3.3    Net divider_inst.comb_inst.stage_3.row_inst.gen_cells[0].cell_inst.r_i_LUT2_I0_F_MUX2_LUT8_O_2_I0_MUX2_LUT7_O_I1_MUX2_LUT6_O_I1 budget 5.618506 ns (10,3) -> (10,3)
+Info:                Sink divider_inst.comb_inst.stage_3.row_inst.gen_cells[0].cell_inst.r_i_LUT2_I0_F_MUX2_LUT8_O_2_I0_MUX2_LUT7_O_I1_MUX2_LUT6_O_LC.I1
 Info:                Defined in:
 Info:                  /home/adonay/Downloads/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:170.42-170.67
 Info:                  /home/adonay/Downloads/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:165.42-165.67
 Info:                  /home/adonay/Downloads/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:157.13-157.15
-Info:  0.4  3.6  Source divider_inst.comb_inst.stage_4.row_inst.gen_cells[0].cell_inst.r_i_MUX2_LUT5_S0_5_O_MUX2_LUT6_I0_LC.OF
-Info:  0.3  4.0    Net divider_inst.comb_inst.stage_4.row_inst.gen_cells[0].cell_inst.r_i_MUX2_LUT5_S0_5_O_MUX2_LUT6_I0_O budget 5.618506 ns (5,2) -> (5,2)
-Info:                Sink divider_inst.comb_inst.stage_5.row_inst.gen_cells[0].cell_inst.r_i_MUX2_LUT8_S0_I0_MUX2_LUT7_O_LC.I1
+Info:  0.4  3.6  Source divider_inst.comb_inst.stage_3.row_inst.gen_cells[0].cell_inst.r_i_LUT2_I0_F_MUX2_LUT8_O_2_I0_MUX2_LUT7_O_I1_MUX2_LUT6_O_LC.OF
+Info:  0.3  4.0    Net divider_inst.comb_inst.stage_3.row_inst.gen_cells[0].cell_inst.r_i_LUT2_I0_F_MUX2_LUT8_O_2_I0_MUX2_LUT7_O_I1 budget 5.618506 ns (10,3) -> (10,3)
+Info:                Sink divider_inst.comb_inst.stage_3.row_inst.gen_cells[0].cell_inst.r_i_LUT2_I0_F_MUX2_LUT8_O_2_I0_MUX2_LUT7_O_LC.I1
 Info:                Defined in:
 Info:                  /home/adonay/Downloads/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:170.42-170.67
 Info:                  /home/adonay/Downloads/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:163.13-163.15
-Info:  0.5  4.5  Source divider_inst.comb_inst.stage_5.row_inst.gen_cells[0].cell_inst.r_i_MUX2_LUT8_S0_I0_MUX2_LUT7_O_LC.OF
-Info:  0.4  4.9    Net divider_inst.comb_inst.stage_5.row_inst.gen_cells[0].cell_inst.r_i_MUX2_LUT8_S0_I0 budget 5.618506 ns (5,2) -> (4,2)
-Info:                Sink divider_inst.comb_inst.stage_5.row_inst.gen_cells[0].cell_inst.r_i_MUX2_LUT8_S0_LC.I0
+Info:  0.5  4.5  Source divider_inst.comb_inst.stage_3.row_inst.gen_cells[0].cell_inst.r_i_LUT2_I0_F_MUX2_LUT8_O_2_I0_MUX2_LUT7_O_LC.OF
+Info:  0.4  4.9    Net divider_inst.comb_inst.stage_3.row_inst.gen_cells[0].cell_inst.r_i_LUT2_I0_F_MUX2_LUT8_O_2_I0 budget 5.618506 ns (10,3) -> (9,3)
+Info:                Sink divider_inst.comb_inst.stage_3.row_inst.gen_cells[0].cell_inst.r_i_LUT2_I0_F_MUX2_LUT8_O_2_LC.I0
 Info:                Defined in:
 Info:                  /home/adonay/Downloads/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:169.9-169.11
-Info:  0.7  5.6  Source divider_inst.comb_inst.stage_5.row_inst.gen_cells[0].cell_inst.r_i_MUX2_LUT8_S0_LC.OF
-Info:  1.9  7.5    Net divider_inst.quotient_comb_LUT2_F_I1_LUT3_I0_I2[7] budget 5.618506 ns (4,2) -> (9,1)
-Info:                Sink divider_inst.comb_inst.stage_3.row_inst.gen_cells[0].cell_inst.r_i_MUX2_LUT8_S0_I0_MUX2_LUT7_O_I1_MUX2_LUT6_O_I1_MUX2_LUT5_O_I1_LUT3_F_LC.B
+Info:  0.7  5.6  Source divider_inst.comb_inst.stage_3.row_inst.gen_cells[0].cell_inst.r_i_LUT2_I0_F_MUX2_LUT8_O_2_LC.OF
+Info:  1.3  6.9    Net divider_inst.quotient_comb_LUT2_F_I1_MUX2_LUT7_O_S0[1] budget 5.618506 ns (9,3) -> (7,4)
+Info:                Sink divider_inst.comb_inst.stage_3.row_inst.gen_cells[0].cell_inst.r_i_MUX2_LUT8_S0_I1_MUX2_LUT7_O_I1_MUX2_LUT6_O_I1_MUX2_LUT5_O_I1_LUT4_F_LC.B
 Info:                Defined in:
 Info:                  /home/adonay/Downloads/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:130.20-130.21
-Info:  1.1  8.6  Source divider_inst.comb_inst.stage_3.row_inst.gen_cells[0].cell_inst.r_i_MUX2_LUT8_S0_I0_MUX2_LUT7_O_I1_MUX2_LUT6_O_I1_MUX2_LUT5_O_I1_LUT3_F_LC.F
-Info:  0.3  8.9    Net divider_inst.comb_inst.stage_3.row_inst.gen_cells[0].cell_inst.r_i_MUX2_LUT8_S0_I0_MUX2_LUT7_O_I1_MUX2_LUT6_O_I1_MUX2_LUT5_O_I1 budget 2.803912 ns (9,1) -> (9,1)
-Info:                Sink divider_inst.comb_inst.stage_3.row_inst.gen_cells[0].cell_inst.r_i_MUX2_LUT8_S0_I0_MUX2_LUT7_O_I1_MUX2_LUT6_O_I1_MUX2_LUT5_O_LC.I1
+Info:  1.1  8.0  Source divider_inst.comb_inst.stage_3.row_inst.gen_cells[0].cell_inst.r_i_MUX2_LUT8_S0_I1_MUX2_LUT7_O_I1_MUX2_LUT6_O_I1_MUX2_LUT5_O_I1_LUT4_F_LC.F
+Info:  0.3  8.3    Net divider_inst.comb_inst.stage_3.row_inst.gen_cells[0].cell_inst.r_i_MUX2_LUT8_S0_I1_MUX2_LUT7_O_I1_MUX2_LUT6_O_I1_MUX2_LUT5_O_I1 budget 2.803912 ns (7,4) -> (7,4)
+Info:                Sink divider_inst.comb_inst.stage_3.row_inst.gen_cells[0].cell_inst.r_i_MUX2_LUT8_S0_I1_MUX2_LUT7_O_I1_MUX2_LUT6_O_I1_MUX2_LUT5_O_LC.I1
 Info:                Defined in:
-Info:                  /home/adonay/Downloads/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:170.42-170.67
+Info:                  /home/adonay/Downloads/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:171.43-171.68
 Info:                  /home/adonay/Downloads/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:165.42-165.67
 Info:                  /home/adonay/Downloads/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:159.41-159.66
 Info:                  /home/adonay/Downloads/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:151.13-151.15
-Info:  0.2  9.1  Source divider_inst.comb_inst.stage_3.row_inst.gen_cells[0].cell_inst.r_i_MUX2_LUT8_S0_I0_MUX2_LUT7_O_I1_MUX2_LUT6_O_I1_MUX2_LUT5_O_LC.OF
-Info:  0.3  9.5    Net divider_inst.comb_inst.stage_3.row_inst.gen_cells[0].cell_inst.r_i_MUX2_LUT8_S0_I0_MUX2_LUT7_O_I1_MUX2_LUT6_O_I1 budget 2.803912 ns (9,1) -> (9,1)
-Info:                Sink divider_inst.comb_inst.stage_3.row_inst.gen_cells[0].cell_inst.r_i_MUX2_LUT8_S0_I0_MUX2_LUT7_O_I1_MUX2_LUT6_O_LC.I1
+Info:  0.2  8.5  Source divider_inst.comb_inst.stage_3.row_inst.gen_cells[0].cell_inst.r_i_MUX2_LUT8_S0_I1_MUX2_LUT7_O_I1_MUX2_LUT6_O_I1_MUX2_LUT5_O_LC.OF
+Info:  0.3  8.8    Net divider_inst.comb_inst.stage_3.row_inst.gen_cells[0].cell_inst.r_i_MUX2_LUT8_S0_I1_MUX2_LUT7_O_I1_MUX2_LUT6_O_I1 budget 2.803912 ns (7,4) -> (7,4)
+Info:                Sink divider_inst.comb_inst.stage_3.row_inst.gen_cells[0].cell_inst.r_i_MUX2_LUT8_S0_I1_MUX2_LUT7_O_I1_MUX2_LUT6_O_LC.I1
 Info:                Defined in:
-Info:                  /home/adonay/Downloads/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:170.42-170.67
+Info:                  /home/adonay/Downloads/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:171.43-171.68
 Info:                  /home/adonay/Downloads/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:165.42-165.67
 Info:                  /home/adonay/Downloads/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:157.13-157.15
-Info:  0.4  9.8  Source divider_inst.comb_inst.stage_3.row_inst.gen_cells[0].cell_inst.r_i_MUX2_LUT8_S0_I0_MUX2_LUT7_O_I1_MUX2_LUT6_O_LC.OF
-Info:  0.3 10.1    Net divider_inst.comb_inst.stage_3.row_inst.gen_cells[0].cell_inst.r_i_MUX2_LUT8_S0_I0_MUX2_LUT7_O_I1 budget 2.803912 ns (9,1) -> (9,1)
-Info:                Sink divider_inst.comb_inst.stage_3.row_inst.gen_cells[0].cell_inst.r_i_MUX2_LUT8_S0_I0_MUX2_LUT7_O_LC.I1
+Info:  0.4  9.2  Source divider_inst.comb_inst.stage_3.row_inst.gen_cells[0].cell_inst.r_i_MUX2_LUT8_S0_I1_MUX2_LUT7_O_I1_MUX2_LUT6_O_LC.OF
+Info:  0.3  9.5    Net divider_inst.comb_inst.stage_3.row_inst.gen_cells[0].cell_inst.r_i_MUX2_LUT8_S0_I1_MUX2_LUT7_O_I1 budget 2.803912 ns (7,4) -> (7,4)
+Info:                Sink divider_inst.comb_inst.stage_3.row_inst.gen_cells[0].cell_inst.r_i_MUX2_LUT8_S0_I1_MUX2_LUT7_O_LC.I1
 Info:                Defined in:
-Info:                  /home/adonay/Downloads/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:170.42-170.67
+Info:                  /home/adonay/Downloads/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:171.43-171.68
 Info:                  /home/adonay/Downloads/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:163.13-163.15
-Info:  0.5 10.7  Source divider_inst.comb_inst.stage_3.row_inst.gen_cells[0].cell_inst.r_i_MUX2_LUT8_S0_I0_MUX2_LUT7_O_LC.OF
-Info:  0.4 11.1    Net divider_inst.comb_inst.stage_3.row_inst.gen_cells[0].cell_inst.r_i_MUX2_LUT8_S0_I0 budget 2.803912 ns (9,1) -> (8,1)
-Info:                Sink divider_inst.comb_inst.stage_3.row_inst.gen_cells[0].cell_inst.r_i_MUX2_LUT8_S0_LC.I0
+Info:  0.5 10.0  Source divider_inst.comb_inst.stage_3.row_inst.gen_cells[0].cell_inst.r_i_MUX2_LUT8_S0_I1_MUX2_LUT7_O_LC.OF
+Info:  0.3 10.4    Net divider_inst.comb_inst.stage_3.row_inst.gen_cells[0].cell_inst.r_i_MUX2_LUT8_S0_I1 budget 2.803912 ns (7,4) -> (7,4)
+Info:                Sink divider_inst.comb_inst.stage_3.row_inst.gen_cells[0].cell_inst.r_i_MUX2_LUT8_S0_LC.I1
 Info:                Defined in:
-Info:                  /home/adonay/Downloads/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:169.9-169.11
-Info:  0.7 11.8  Source divider_inst.comb_inst.stage_3.row_inst.gen_cells[0].cell_inst.r_i_MUX2_LUT8_S0_LC.OF
-Info:  0.8 12.6    Net divider_inst.quotient_comb_LUT2_F_I1_LUT2_I0_F_LUT4_I3_F_MUX2_LUT6_O_I0_MUX2_LUT5_O_S0[0] budget 2.803912 ns (8,1) -> (8,2)
-Info:                Sink divider_inst.quotient_comb_LUT2_F_I1_LUT3_I0_F_MUX2_LUT7_O_I0_MUX2_LUT6_O_I0_MUX2_LUT5_O_I1_LUT4_F_LC.A
+Info:                  /home/adonay/Downloads/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:169.13-169.15
+Info:  0.7 11.1  Source divider_inst.comb_inst.stage_3.row_inst.gen_cells[0].cell_inst.r_i_MUX2_LUT8_S0_LC.OF
+Info:  0.5 11.5    Net divider_inst.quotient_comb_LUT2_F_I1_LUT2_I0_F_LUT4_I3_F_MUX2_LUT6_O_I0_MUX2_LUT5_O_S0[0] budget 2.803912 ns (7,4) -> (7,3)
+Info:                Sink divider_inst.quotient_comb_LUT2_F_I1_LUT3_I0_F_MUX2_LUT7_O_I1_MUX2_LUT6_O_I0_MUX2_LUT5_O_I1_LUT4_F_LC.A
 Info:                Defined in:
 Info:                  /home/adonay/Downloads/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:130.20-130.21
-Info:  1.0 13.6  Source divider_inst.quotient_comb_LUT2_F_I1_LUT3_I0_F_MUX2_LUT7_O_I0_MUX2_LUT6_O_I0_MUX2_LUT5_O_I1_LUT4_F_LC.F
-Info:  0.3 13.9    Net divider_inst.quotient_comb_LUT2_F_I1_LUT3_I0_F_MUX2_LUT7_O_I0_MUX2_LUT6_O_I0_MUX2_LUT5_O_I1 budget 1.916669 ns (8,2) -> (8,2)
-Info:                Sink divider_inst.quotient_comb_LUT2_F_I1_LUT3_I0_F_MUX2_LUT7_O_I0_MUX2_LUT6_O_I0_MUX2_LUT5_O_LC.I1
+Info:  1.0 12.6  Source divider_inst.quotient_comb_LUT2_F_I1_LUT3_I0_F_MUX2_LUT7_O_I1_MUX2_LUT6_O_I0_MUX2_LUT5_O_I1_LUT4_F_LC.F
+Info:  0.3 12.9    Net divider_inst.quotient_comb_LUT2_F_I1_LUT3_I0_F_MUX2_LUT7_O_I1_MUX2_LUT6_O_I0_MUX2_LUT5_O_I1 budget 1.916669 ns (7,3) -> (7,3)
+Info:                Sink divider_inst.quotient_comb_LUT2_F_I1_LUT3_I0_F_MUX2_LUT7_O_I1_MUX2_LUT6_O_I0_MUX2_LUT5_O_LC.I1
 Info:                Defined in:
-Info:                  /home/adonay/Downloads/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:164.41-164.66
+Info:                  /home/adonay/Downloads/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:165.42-165.67
 Info:                  /home/adonay/Downloads/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:158.41-158.66
 Info:                  /home/adonay/Downloads/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:151.13-151.15
-Info:  0.2 14.1  Source divider_inst.quotient_comb_LUT2_F_I1_LUT3_I0_F_MUX2_LUT7_O_I0_MUX2_LUT6_O_I0_MUX2_LUT5_O_LC.OF
-Info:  0.3 14.4    Net divider_inst.quotient_comb_LUT2_F_I1_LUT3_I0_F_MUX2_LUT7_O_I0_MUX2_LUT6_O_I0 budget 1.916669 ns (8,2) -> (8,2)
-Info:                Sink divider_inst.quotient_comb_LUT2_F_I1_LUT3_I0_F_MUX2_LUT7_O_I0_MUX2_LUT6_O_LC.I0
+Info:  0.2 13.1  Source divider_inst.quotient_comb_LUT2_F_I1_LUT3_I0_F_MUX2_LUT7_O_I1_MUX2_LUT6_O_I0_MUX2_LUT5_O_LC.OF
+Info:  0.3 13.4    Net divider_inst.quotient_comb_LUT2_F_I1_LUT3_I0_F_MUX2_LUT7_O_I1_MUX2_LUT6_O_I0 budget 1.916669 ns (7,3) -> (7,3)
+Info:                Sink divider_inst.quotient_comb_LUT2_F_I1_LUT3_I0_F_MUX2_LUT7_O_I1_MUX2_LUT6_O_LC.I0
 Info:                Defined in:
-Info:                  /home/adonay/Downloads/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:164.41-164.66
+Info:                  /home/adonay/Downloads/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:165.42-165.67
 Info:                  /home/adonay/Downloads/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:157.9-157.11
-Info:  0.4 14.8  Source divider_inst.quotient_comb_LUT2_F_I1_LUT3_I0_F_MUX2_LUT7_O_I0_MUX2_LUT6_O_LC.OF
-Info:  0.3 15.1    Net divider_inst.quotient_comb_LUT2_F_I1_LUT3_I0_F_MUX2_LUT7_O_I0 budget 1.916669 ns (8,2) -> (8,2)
-Info:                Sink divider_inst.quotient_comb_LUT2_F_I1_LUT3_I0_F_MUX2_LUT7_O_LC.I0
+Info:  0.4 13.8  Source divider_inst.quotient_comb_LUT2_F_I1_LUT3_I0_F_MUX2_LUT7_O_I1_MUX2_LUT6_O_LC.OF
+Info:  0.3 14.1    Net divider_inst.quotient_comb_LUT2_F_I1_LUT3_I0_F_MUX2_LUT7_O_I1 budget 1.916669 ns (7,3) -> (7,3)
+Info:                Sink divider_inst.quotient_comb_LUT2_F_I1_LUT3_I0_F_MUX2_LUT7_O_LC.I1
 Info:                Defined in:
-Info:                  /home/adonay/Downloads/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:163.9-163.11
-Info:  0.5 15.7  Source divider_inst.quotient_comb_LUT2_F_I1_LUT3_I0_F_MUX2_LUT7_O_LC.OF
-Info:  1.2 16.9    Net divider_inst.quotient_comb_LUT2_F_I1_LUT2_I0_F[0] budget 1.916669 ns (8,2) -> (9,3)
-Info:                Sink divider_inst.comb_inst.stage_2.row_inst.gen_cells[0].cell_inst.r_i_MUX2_LUT8_S0_I0_MUX2_LUT7_O_I1_MUX2_LUT6_O_I0_MUX2_LUT5_O_I0_LUT4_F_LC.B
+Info:                  /home/adonay/Downloads/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:163.13-163.15
+Info:  0.5 14.6  Source divider_inst.quotient_comb_LUT2_F_I1_LUT3_I0_F_MUX2_LUT7_O_LC.OF
+Info:  0.9 15.5    Net divider_inst.quotient_comb_LUT2_F_I1_LUT2_I0_F[0] budget 1.916669 ns (7,3) -> (6,2)
+Info:                Sink divider_inst.comb_inst.stage_2.row_inst.gen_cells[0].cell_inst.r_i_MUX2_LUT8_S0_I1_MUX2_LUT7_O_I1_MUX2_LUT6_O_I0_MUX2_LUT5_O_I1_LUT4_F_LC.B
 Info:                Defined in:
 Info:                  /home/adonay/Downloads/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:130.20-130.21
-Info:  1.1 18.0  Source divider_inst.comb_inst.stage_2.row_inst.gen_cells[0].cell_inst.r_i_MUX2_LUT8_S0_I0_MUX2_LUT7_O_I1_MUX2_LUT6_O_I0_MUX2_LUT5_O_I0_LUT4_F_LC.F
-Info:  0.3 18.3    Net divider_inst.comb_inst.stage_2.row_inst.gen_cells[0].cell_inst.r_i_MUX2_LUT8_S0_I0_MUX2_LUT7_O_I1_MUX2_LUT6_O_I0_MUX2_LUT5_O_I0 budget 1.294102 ns (9,3) -> (9,3)
-Info:                Sink divider_inst.comb_inst.stage_2.row_inst.gen_cells[0].cell_inst.r_i_MUX2_LUT8_S0_I0_MUX2_LUT7_O_I1_MUX2_LUT6_O_I0_MUX2_LUT5_O_LC.I0
+Info:  1.1 16.6  Source divider_inst.comb_inst.stage_2.row_inst.gen_cells[0].cell_inst.r_i_MUX2_LUT8_S0_I1_MUX2_LUT7_O_I1_MUX2_LUT6_O_I0_MUX2_LUT5_O_I1_LUT4_F_LC.F
+Info:  0.3 16.9    Net divider_inst.comb_inst.stage_2.row_inst.gen_cells[0].cell_inst.r_i_MUX2_LUT8_S0_I1_MUX2_LUT7_O_I1_MUX2_LUT6_O_I0_MUX2_LUT5_O_I1 budget 1.294102 ns (6,2) -> (6,2)
+Info:                Sink divider_inst.comb_inst.stage_2.row_inst.gen_cells[0].cell_inst.r_i_MUX2_LUT8_S0_I1_MUX2_LUT7_O_I1_MUX2_LUT6_O_I0_MUX2_LUT5_O_LC.I1
 Info:                Defined in:
-Info:                  /home/adonay/Downloads/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:170.42-170.67
+Info:                  /home/adonay/Downloads/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:171.43-171.68
 Info:                  /home/adonay/Downloads/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:165.42-165.67
 Info:                  /home/adonay/Downloads/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:158.41-158.66
-Info:                  /home/adonay/Downloads/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:151.9-151.11
-Info:  0.2 18.5  Source divider_inst.comb_inst.stage_2.row_inst.gen_cells[0].cell_inst.r_i_MUX2_LUT8_S0_I0_MUX2_LUT7_O_I1_MUX2_LUT6_O_I0_MUX2_LUT5_O_LC.OF
-Info:  0.3 18.8    Net divider_inst.comb_inst.stage_2.row_inst.gen_cells[0].cell_inst.r_i_MUX2_LUT8_S0_I0_MUX2_LUT7_O_I1_MUX2_LUT6_O_I0 budget 1.294102 ns (9,3) -> (9,3)
-Info:                Sink divider_inst.comb_inst.stage_2.row_inst.gen_cells[0].cell_inst.r_i_MUX2_LUT8_S0_I0_MUX2_LUT7_O_I1_MUX2_LUT6_O_LC.I0
+Info:                  /home/adonay/Downloads/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:151.13-151.15
+Info:  0.2 17.1  Source divider_inst.comb_inst.stage_2.row_inst.gen_cells[0].cell_inst.r_i_MUX2_LUT8_S0_I1_MUX2_LUT7_O_I1_MUX2_LUT6_O_I0_MUX2_LUT5_O_LC.OF
+Info:  0.3 17.4    Net divider_inst.comb_inst.stage_2.row_inst.gen_cells[0].cell_inst.r_i_MUX2_LUT8_S0_I1_MUX2_LUT7_O_I1_MUX2_LUT6_O_I0 budget 1.294102 ns (6,2) -> (6,2)
+Info:                Sink divider_inst.comb_inst.stage_2.row_inst.gen_cells[0].cell_inst.r_i_MUX2_LUT8_S0_I1_MUX2_LUT7_O_I1_MUX2_LUT6_O_LC.I0
 Info:                Defined in:
-Info:                  /home/adonay/Downloads/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:170.42-170.67
+Info:                  /home/adonay/Downloads/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:171.43-171.68
 Info:                  /home/adonay/Downloads/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:165.42-165.67
 Info:                  /home/adonay/Downloads/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:157.9-157.11
-Info:  0.4 19.2  Source divider_inst.comb_inst.stage_2.row_inst.gen_cells[0].cell_inst.r_i_MUX2_LUT8_S0_I0_MUX2_LUT7_O_I1_MUX2_LUT6_O_LC.OF
-Info:  0.3 19.5    Net divider_inst.comb_inst.stage_2.row_inst.gen_cells[0].cell_inst.r_i_MUX2_LUT8_S0_I0_MUX2_LUT7_O_I1 budget 1.294102 ns (9,3) -> (9,3)
-Info:                Sink divider_inst.comb_inst.stage_2.row_inst.gen_cells[0].cell_inst.r_i_MUX2_LUT8_S0_I0_MUX2_LUT7_O_LC.I1
+Info:  0.4 17.8  Source divider_inst.comb_inst.stage_2.row_inst.gen_cells[0].cell_inst.r_i_MUX2_LUT8_S0_I1_MUX2_LUT7_O_I1_MUX2_LUT6_O_LC.OF
+Info:  0.3 18.1    Net divider_inst.comb_inst.stage_2.row_inst.gen_cells[0].cell_inst.r_i_MUX2_LUT8_S0_I1_MUX2_LUT7_O_I1 budget 1.294102 ns (6,2) -> (6,2)
+Info:                Sink divider_inst.comb_inst.stage_2.row_inst.gen_cells[0].cell_inst.r_i_MUX2_LUT8_S0_I1_MUX2_LUT7_O_LC.I1
 Info:                Defined in:
-Info:                  /home/adonay/Downloads/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:170.42-170.67
+Info:                  /home/adonay/Downloads/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:171.43-171.68
 Info:                  /home/adonay/Downloads/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:163.13-163.15
-Info:  0.5 20.0  Source divider_inst.comb_inst.stage_2.row_inst.gen_cells[0].cell_inst.r_i_MUX2_LUT8_S0_I0_MUX2_LUT7_O_LC.OF
-Info:  0.4 20.4    Net divider_inst.comb_inst.stage_2.row_inst.gen_cells[0].cell_inst.r_i_MUX2_LUT8_S0_I0 budget 1.294102 ns (9,3) -> (8,3)
-Info:                Sink divider_inst.comb_inst.stage_2.row_inst.gen_cells[0].cell_inst.r_i_MUX2_LUT8_S0_LC.I0
+Info:  0.5 18.6  Source divider_inst.comb_inst.stage_2.row_inst.gen_cells[0].cell_inst.r_i_MUX2_LUT8_S0_I1_MUX2_LUT7_O_LC.OF
+Info:  0.3 19.0    Net divider_inst.comb_inst.stage_2.row_inst.gen_cells[0].cell_inst.r_i_MUX2_LUT8_S0_I1 budget 1.294102 ns (6,2) -> (6,2)
+Info:                Sink divider_inst.comb_inst.stage_2.row_inst.gen_cells[0].cell_inst.r_i_MUX2_LUT8_S0_LC.I1
 Info:                Defined in:
-Info:                  /home/adonay/Downloads/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:169.9-169.11
-Info:  0.7 21.1  Source divider_inst.comb_inst.stage_2.row_inst.gen_cells[0].cell_inst.r_i_MUX2_LUT8_S0_LC.OF
-Info:  0.8 21.9    Net divider_inst.quotient_comb_LUT2_F_I1_LUT2_I0_F_LUT4_I3_F[1] budget 1.294102 ns (8,3) -> (8,4)
-Info:                Sink divider_inst.quotient_comb_LUT3_F_I0_LUT4_I0_F_MUX2_LUT8_O_I0_MUX2_LUT7_O_I1_MUX2_LUT6_O_I1_MUX2_LUT5_O_I1_LUT4_F_LC.B
+Info:                  /home/adonay/Downloads/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:169.13-169.15
+Info:  0.7 19.7  Source divider_inst.comb_inst.stage_2.row_inst.gen_cells[0].cell_inst.r_i_MUX2_LUT8_S0_LC.OF
+Info:  0.8 20.5    Net divider_inst.quotient_comb_LUT2_F_I1_LUT2_I0_F_LUT4_I3_F[1] budget 1.294102 ns (6,2) -> (5,2)
+Info:                Sink divider_inst.quotient_comb_LUT2_F_I1_LUT2_I0_F_LUT4_I3_F_LUT4_I0_LC.B
 Info:                Defined in:
 Info:                  /home/adonay/Downloads/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:130.20-130.21
-Info:  1.1 23.0  Source divider_inst.quotient_comb_LUT3_F_I0_LUT4_I0_F_MUX2_LUT8_O_I0_MUX2_LUT7_O_I1_MUX2_LUT6_O_I1_MUX2_LUT5_O_I1_LUT4_F_LC.F
-Info:  0.3 23.4    Net divider_inst.quotient_comb_LUT3_F_I0_LUT4_I0_F_MUX2_LUT8_O_I0_MUX2_LUT7_O_I1_MUX2_LUT6_O_I1_MUX2_LUT5_O_I1 budget 0.920562 ns (8,4) -> (8,4)
-Info:                Sink divider_inst.quotient_comb_LUT3_F_I0_LUT4_I0_F_MUX2_LUT8_O_I0_MUX2_LUT7_O_I1_MUX2_LUT6_O_I1_MUX2_LUT5_O_LC.I1
+Info:  1.1 21.6  Source divider_inst.quotient_comb_LUT2_F_I1_LUT2_I0_F_LUT4_I3_F_LUT4_I0_LC.F
+Info:  0.3 21.9    Net divider_inst.quotient_comb_LUT2_F_I1_LUT2_I0_F_LUT4_I3_F_LUT4_I0_F budget 0.920562 ns (5,2) -> (5,2)
+Info:                Sink divider_inst.quotient_comb_LUT2_F_I1_LUT2_I0_F_LUT4_I3_F_LUT4_I0_F_MUX2_LUT5_I1_LC.I1
 Info:                Defined in:
 Info:                  /home/adonay/Downloads/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:170.42-170.67
 Info:                  /home/adonay/Downloads/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:165.42-165.67
 Info:                  /home/adonay/Downloads/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:159.41-159.66
 Info:                  /home/adonay/Downloads/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:151.13-151.15
-Info:  0.2 23.5  Source divider_inst.quotient_comb_LUT3_F_I0_LUT4_I0_F_MUX2_LUT8_O_I0_MUX2_LUT7_O_I1_MUX2_LUT6_O_I1_MUX2_LUT5_O_LC.OF
-Info:  0.3 23.9    Net divider_inst.quotient_comb_LUT3_F_I0_LUT4_I0_F_MUX2_LUT8_O_I0_MUX2_LUT7_O_I1_MUX2_LUT6_O_I1 budget 0.920562 ns (8,4) -> (8,4)
-Info:                Sink divider_inst.quotient_comb_LUT3_F_I0_LUT4_I0_F_MUX2_LUT8_O_I0_MUX2_LUT7_O_I1_MUX2_LUT6_O_LC.I1
+Info:  0.2 22.1  Source divider_inst.quotient_comb_LUT2_F_I1_LUT2_I0_F_LUT4_I3_F_LUT4_I0_F_MUX2_LUT5_I1_LC.OF
+Info:  0.3 22.4    Net divider_inst.comb_inst.stage_0.row_inst.gen_cells[2].cell_inst.b_i_MUX2_LUT6_S0_2_I1 budget 0.920562 ns (5,2) -> (5,2)
+Info:                Sink divider_inst.comb_inst.stage_0.row_inst.gen_cells[2].cell_inst.b_i_MUX2_LUT6_S0_2_LC.I1
 Info:                Defined in:
 Info:                  /home/adonay/Downloads/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:170.42-170.67
 Info:                  /home/adonay/Downloads/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:165.42-165.67
 Info:                  /home/adonay/Downloads/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:157.13-157.15
-Info:  0.4 24.2  Source divider_inst.quotient_comb_LUT3_F_I0_LUT4_I0_F_MUX2_LUT8_O_I0_MUX2_LUT7_O_I1_MUX2_LUT6_O_LC.OF
-Info:  0.3 24.5    Net divider_inst.quotient_comb_LUT3_F_I0_LUT4_I0_F_MUX2_LUT8_O_I0_MUX2_LUT7_O_I1 budget 0.920561 ns (8,4) -> (8,4)
-Info:                Sink divider_inst.quotient_comb_LUT3_F_I0_LUT4_I0_F_MUX2_LUT8_O_I0_MUX2_LUT7_O_LC.I1
+Info:  0.4 22.8  Source divider_inst.comb_inst.stage_0.row_inst.gen_cells[2].cell_inst.b_i_MUX2_LUT6_S0_2_LC.OF
+Info:  0.3 23.1    Net divider_inst.comb_inst.stage_0.row_inst.gen_cells[2].cell_inst.b_i_MUX2_LUT6_S0_2_O budget 0.920561 ns (5,2) -> (5,2)
+Info:                Sink divider_inst.comb_inst.stage_0.row_inst.gen_cells[4].cell_inst.b_i_MUX2_LUT7_S0_1_LC.I1
 Info:                Defined in:
 Info:                  /home/adonay/Downloads/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:170.42-170.67
 Info:                  /home/adonay/Downloads/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:163.13-163.15
-Info:  0.5 25.1  Source divider_inst.quotient_comb_LUT3_F_I0_LUT4_I0_F_MUX2_LUT8_O_I0_MUX2_LUT7_O_LC.OF
-Info:  0.4 25.5    Net divider_inst.quotient_comb_LUT3_F_I0_LUT4_I0_F_MUX2_LUT8_O_I0 budget 0.920561 ns (8,4) -> (7,4)
-Info:                Sink divider_inst.quotient_comb_LUT3_F_I0_LUT4_I0_F_MUX2_LUT8_O_LC.I0
+Info:  0.5 23.6  Source divider_inst.comb_inst.stage_0.row_inst.gen_cells[4].cell_inst.b_i_MUX2_LUT7_S0_1_LC.OF
+Info:  0.4 24.0    Net divider_inst.comb_inst.stage_0.row_inst.gen_cells[4].cell_inst.b_i_MUX2_LUT7_S0_1_O budget 0.920561 ns (5,2) -> (4,2)
+Info:                Sink divider_inst.quotient_comb_LUT2_F_I1_LUT2_I0_F_LUT4_I3_F_MUX2_LUT8_S0_LC.I0
 Info:                Defined in:
 Info:                  /home/adonay/Downloads/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:169.9-169.11
-Info:  0.7 26.2  Source divider_inst.quotient_comb_LUT3_F_I0_LUT4_I0_F_MUX2_LUT8_O_LC.OF
-Info:  1.2 27.4    Net divider_inst.quotient_comb_LUT3_F_I0_LUT4_I0_F[2] budget 0.920561 ns (7,4) -> (10,4)
-Info:                Sink divider_inst.comb_inst.stage_0.row_inst.gen_cells[0].cell_inst.r_i_LUT4_I0_4_LC.C
+Info:  0.7 24.7  Source divider_inst.quotient_comb_LUT2_F_I1_LUT2_I0_F_LUT4_I3_F_MUX2_LUT8_S0_LC.OF
+Info:  0.8 25.5    Net divider_inst.quotient_comb_LUT2_F_1_I0[0] budget 0.920561 ns (4,2) -> (4,4)
+Info:                Sink divider_inst.quotient_comb_LUT3_F_I0_LUT2_I1_F_MUX2_LUT7_O_I1_MUX2_LUT6_O_I1_MUX2_LUT5_O_I1_LUT4_F_LC.C
 Info:                Defined in:
 Info:                  /home/adonay/Downloads/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:130.20-130.21
-Info:  0.8 28.2  Source divider_inst.comb_inst.stage_0.row_inst.gen_cells[0].cell_inst.r_i_LUT4_I0_4_LC.F
-Info:  0.3 28.6    Net divider_inst.comb_inst.stage_0.row_inst.gen_cells[0].cell_inst.r_i_LUT4_I0_4_F budget 0.719105 ns (10,4) -> (10,4)
-Info:                Sink divider_inst.comb_inst.stage_0.row_inst.gen_cells[0].cell_inst.r_i_LUT4_I0_5_F_MUX2_LUT5_I0_LC.I1
+Info:  0.8 26.4  Source divider_inst.quotient_comb_LUT3_F_I0_LUT2_I1_F_MUX2_LUT7_O_I1_MUX2_LUT6_O_I1_MUX2_LUT5_O_I1_LUT4_F_LC.F
+Info:  0.3 26.7    Net divider_inst.quotient_comb_LUT3_F_I0_LUT2_I1_F_MUX2_LUT7_O_I1_MUX2_LUT6_O_I1_MUX2_LUT5_O_I1 budget 0.719105 ns (4,4) -> (4,4)
+Info:                Sink divider_inst.quotient_comb_LUT3_F_I0_LUT2_I1_F_MUX2_LUT7_O_I1_MUX2_LUT6_O_I1_MUX2_LUT5_O_LC.I1
 Info:                Defined in:
 Info:                  /home/adonay/Downloads/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:165.42-165.67
 Info:                  /home/adonay/Downloads/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:159.41-159.66
 Info:                  /home/adonay/Downloads/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:151.13-151.15
-Info:  0.2 28.7  Source divider_inst.comb_inst.stage_0.row_inst.gen_cells[0].cell_inst.r_i_LUT4_I0_5_F_MUX2_LUT5_I0_LC.OF
-Info:  0.3 29.1    Net divider_inst.comb_inst.stage_0.row_inst.gen_cells[0].cell_inst.r_i_LUT4_I0_5_F_MUX2_LUT5_I0_O budget 0.719105 ns (10,4) -> (10,4)
-Info:                Sink divider_inst.comb_inst.stage_0.row_inst.gen_cells[0].cell_inst.r_i_LUT4_I0_7_F_MUX2_LUT5_I0_O_MUX2_LUT6_I0_LC.I1
+Info:  0.2 26.9  Source divider_inst.quotient_comb_LUT3_F_I0_LUT2_I1_F_MUX2_LUT7_O_I1_MUX2_LUT6_O_I1_MUX2_LUT5_O_LC.OF
+Info:  0.3 27.2    Net divider_inst.quotient_comb_LUT3_F_I0_LUT2_I1_F_MUX2_LUT7_O_I1_MUX2_LUT6_O_I1 budget 0.719105 ns (4,4) -> (4,4)
+Info:                Sink divider_inst.quotient_comb_LUT3_F_I0_LUT2_I1_F_MUX2_LUT7_O_I1_MUX2_LUT6_O_LC.I1
 Info:                Defined in:
 Info:                  /home/adonay/Downloads/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:165.42-165.67
 Info:                  /home/adonay/Downloads/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:157.13-157.15
-Info:  0.4 29.4  Source divider_inst.comb_inst.stage_0.row_inst.gen_cells[0].cell_inst.r_i_LUT4_I0_7_F_MUX2_LUT5_I0_O_MUX2_LUT6_I0_LC.OF
-Info:  0.3 29.7    Net divider_inst.comb_inst.stage_0.row_inst.gen_cells[0].cell_inst.r_i_LUT4_I0_7_F_MUX2_LUT5_I0_O_MUX2_LUT6_I0_O budget 0.719105 ns (10,4) -> (10,4)
-Info:                Sink divider_inst.comb_inst.stage_0.row_inst.gen_cells[0].cell_inst.r_i_LUT4_I0_7_F_MUX2_LUT5_I0_O_MUX2_LUT6_I0_O_MUX2_LUT7_I1_LC.I1
+Info:  0.4 27.5  Source divider_inst.quotient_comb_LUT3_F_I0_LUT2_I1_F_MUX2_LUT7_O_I1_MUX2_LUT6_O_LC.OF
+Info:  0.3 27.9    Net divider_inst.quotient_comb_LUT3_F_I0_LUT2_I1_F_MUX2_LUT7_O_I1 budget 0.719105 ns (4,4) -> (4,4)
+Info:                Sink divider_inst.quotient_comb_LUT3_F_I0_LUT2_I1_F_MUX2_LUT7_O_LC.I1
 Info:                Defined in:
 Info:                  /home/adonay/Downloads/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:163.13-163.15
-Info:  0.5 30.3  Source divider_inst.comb_inst.stage_0.row_inst.gen_cells[0].cell_inst.r_i_LUT4_I0_7_F_MUX2_LUT5_I0_O_MUX2_LUT6_I0_O_MUX2_LUT7_I1_LC.OF
-Info:  0.9 31.2    Net divider_inst.remainder_comb_MUX2_LUT8_O_1_I0_MUX2_LUT7_O_I0_MUX2_LUT6_O_S0[1] budget 0.719105 ns (10,4) -> (11,3)
-Info:                Sink divider_inst.remainder_comb_MUX2_LUT8_O_I0_MUX2_LUT7_O_I0_MUX2_LUT6_O_I1_MUX2_LUT5_O_I1_LUT4_F_LC.B
+Info:  0.5 28.4  Source divider_inst.quotient_comb_LUT3_F_I0_LUT2_I1_F_MUX2_LUT7_O_LC.OF
+Info:  1.3 29.7    Net divider_inst.quotient_comb_LUT3_F_1_I0_LUT4_I0_F_MUX2_LUT5_S0_O[2] budget 0.719105 ns (4,4) -> (6,6)
+Info:                Sink divider_inst.remainder_comb_MUX2_LUT8_O_1_I0_MUX2_LUT7_O_I1_MUX2_LUT6_O_I1_MUX2_LUT5_O_I1_LUT4_F_LC.C
 Info:                Defined in:
 Info:                  /home/adonay/Downloads/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:130.20-130.21
-Info:  1.1 32.3  Source divider_inst.remainder_comb_MUX2_LUT8_O_I0_MUX2_LUT7_O_I0_MUX2_LUT6_O_I1_MUX2_LUT5_O_I1_LUT4_F_LC.F
-Info:  0.3 32.6    Net divider_inst.remainder_comb_MUX2_LUT8_O_I0_MUX2_LUT7_O_I0_MUX2_LUT6_O_I1_MUX2_LUT5_O_I1 budget 0.529001 ns (11,3) -> (11,3)
-Info:                Sink divider_inst.remainder_comb_MUX2_LUT8_O_I0_MUX2_LUT7_O_I0_MUX2_LUT6_O_I1_MUX2_LUT5_O_LC.I1
+Info:  0.8 30.5  Source divider_inst.remainder_comb_MUX2_LUT8_O_1_I0_MUX2_LUT7_O_I1_MUX2_LUT6_O_I1_MUX2_LUT5_O_I1_LUT4_F_LC.F
+Info:  0.3 30.8    Net divider_inst.remainder_comb_MUX2_LUT8_O_1_I0_MUX2_LUT7_O_I1_MUX2_LUT6_O_I1_MUX2_LUT5_O_I1 budget 0.537119 ns (6,6) -> (6,6)
+Info:                Sink divider_inst.remainder_comb_MUX2_LUT8_O_1_I0_MUX2_LUT7_O_I1_MUX2_LUT6_O_I1_MUX2_LUT5_O_LC.I1
 Info:                Defined in:
 Info:                  /home/adonay/Downloads/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:170.42-170.67
-Info:                  /home/adonay/Downloads/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:164.41-164.66
+Info:                  /home/adonay/Downloads/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:165.42-165.67
 Info:                  /home/adonay/Downloads/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:159.41-159.66
 Info:                  /home/adonay/Downloads/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:151.13-151.15
-Info:  0.2 32.8  Source divider_inst.remainder_comb_MUX2_LUT8_O_I0_MUX2_LUT7_O_I0_MUX2_LUT6_O_I1_MUX2_LUT5_O_LC.OF
-Info:  0.3 33.1    Net divider_inst.remainder_comb_MUX2_LUT8_O_I0_MUX2_LUT7_O_I0_MUX2_LUT6_O_I1 budget 0.529001 ns (11,3) -> (11,3)
-Info:                Sink divider_inst.remainder_comb_MUX2_LUT8_O_I0_MUX2_LUT7_O_I0_MUX2_LUT6_O_LC.I1
+Info:  0.2 31.0  Source divider_inst.remainder_comb_MUX2_LUT8_O_1_I0_MUX2_LUT7_O_I1_MUX2_LUT6_O_I1_MUX2_LUT5_O_LC.OF
+Info:  0.3 31.3    Net divider_inst.remainder_comb_MUX2_LUT8_O_1_I0_MUX2_LUT7_O_I1_MUX2_LUT6_O_I1 budget 0.537119 ns (6,6) -> (6,6)
+Info:                Sink divider_inst.remainder_comb_MUX2_LUT8_O_1_I0_MUX2_LUT7_O_I1_MUX2_LUT6_O_LC.I1
 Info:                Defined in:
 Info:                  /home/adonay/Downloads/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:170.42-170.67
-Info:                  /home/adonay/Downloads/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:164.41-164.66
+Info:                  /home/adonay/Downloads/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:165.42-165.67
 Info:                  /home/adonay/Downloads/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:157.13-157.15
-Info:  0.4 33.4  Source divider_inst.remainder_comb_MUX2_LUT8_O_I0_MUX2_LUT7_O_I0_MUX2_LUT6_O_LC.OF
-Info:  0.3 33.8    Net divider_inst.remainder_comb_MUX2_LUT8_O_I0_MUX2_LUT7_O_I0 budget 0.529001 ns (11,3) -> (11,3)
-Info:                Sink divider_inst.remainder_comb_MUX2_LUT8_O_I0_MUX2_LUT7_O_LC.I0
+Info:  0.4 31.7  Source divider_inst.remainder_comb_MUX2_LUT8_O_1_I0_MUX2_LUT7_O_I1_MUX2_LUT6_O_LC.OF
+Info:  0.3 32.0    Net divider_inst.remainder_comb_MUX2_LUT8_O_1_I0_MUX2_LUT7_O_I1 budget 0.537119 ns (6,6) -> (6,6)
+Info:                Sink divider_inst.remainder_comb_MUX2_LUT8_O_1_I0_MUX2_LUT7_O_LC.I1
 Info:                Defined in:
 Info:                  /home/adonay/Downloads/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:170.42-170.67
-Info:                  /home/adonay/Downloads/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:163.9-163.11
-Info:  0.5 34.3  Source divider_inst.remainder_comb_MUX2_LUT8_O_I0_MUX2_LUT7_O_LC.OF
-Info:  0.4 34.7    Net divider_inst.remainder_comb_MUX2_LUT8_O_I0 budget 0.529001 ns (11,3) -> (10,3)
-Info:                Sink divider_inst.remainder_comb_MUX2_LUT8_O_LC.I0
+Info:                  /home/adonay/Downloads/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:163.13-163.15
+Info:  0.5 32.6  Source divider_inst.remainder_comb_MUX2_LUT8_O_1_I0_MUX2_LUT7_O_LC.OF
+Info:  0.4 33.0    Net divider_inst.remainder_comb_MUX2_LUT8_O_1_I0 budget 0.537119 ns (6,6) -> (5,6)
+Info:                Sink divider_inst.remainder_comb_MUX2_LUT8_O_1_LC.I0
 Info:                Defined in:
 Info:                  /home/adonay/Downloads/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:169.9-169.11
-Info:  0.7 35.4  Source divider_inst.remainder_comb_MUX2_LUT8_O_LC.OF
-Info:  0.9 36.3    Net divider_inst.remainder_comb[2] budget 0.529001 ns (10,3) -> (12,3)
-Info:                Sink divider_inst.remainder_o_DFFCE_Q_1_DFFLC.A
+Info:  0.7 33.7  Source divider_inst.remainder_comb_MUX2_LUT8_O_1_LC.OF
+Info:  0.5 34.2    Net divider_inst.remainder_comb[1] budget 0.537119 ns (5,6) -> (5,7)
+Info:                Sink divider_inst.remainder_o_DFFCE_Q_3_DFFLC.A
 Info:                Defined in:
 Info:                  ../design/system_top.sv:62.18-72.6
 Info:                  ../design/divider_core.sv:28.17-28.31
-Info:  0.0 36.3  Setup divider_inst.remainder_o_DFFCE_Q_1_DFFLC.A
-Info: 18.8 ns logic, 17.5 ns routing
+Info:  0.0 34.2  Setup divider_inst.remainder_o_DFFCE_Q_3_DFFLC.A
+Info: 18.5 ns logic, 15.7 ns routing
 
 Info: Critical path report for cross-domain path '<async>' -> '<async>':
 Info: curr total
 Info:  0.0  0.0  Source display_inst.mux_inst.rst_n_IBUF_O$iob.O
-Info:  9.6  9.6    Net display_inst.rst_n budget 37.037037 ns (14,28) -> (1,3)
-Info:                Sink divider_inst.state_reg_DFFCE_Q_1_CLEAR_LUT1_F_LC.A
+Info: 10.5 10.5    Net display_inst.rst_n budget 37.037037 ns (14,28) -> (39,10)
+Info:                Sink display_inst.mux_inst.refresh_count_DFFC_Q_10_CLEAR_LUT1_F_LC.A
 Info:                Defined in:
 Info:                  ../design/system_top.sv:41.7-48.6
 Info:                  ../design/keypad_reader.sv:3.18-3.23
-Info:  0.0  9.6  Setup divider_inst.state_reg_DFFCE_Q_1_CLEAR_LUT1_F_LC.A
-Info: 0.0 ns logic, 9.6 ns routing
+Info:  0.0 10.5  Setup display_inst.mux_inst.refresh_count_DFFC_Q_10_CLEAR_LUT1_F_LC.A
+Info: 0.0 ns logic, 10.5 ns routing
 
 Info: Critical path report for cross-domain path '<async>' -> 'posedge display_inst.clk':
 Info: curr total
 Info:  0.0  0.0  Source keypad_inst.columnas_IBUF_O_2$iob.O
-Info:  2.7  2.7    Net keypad_inst.columnas[1] budget 37.037037 ns (22,28) -> (18,23)
+Info:  3.4  3.4    Net keypad_inst.columnas[1] budget 37.037037 ns (22,28) -> (17,21)
 Info:                Sink keypad_inst.columnas_ff1_DFFP_Q_2_DFFLC.A
 Info:                Defined in:
 Info:                  ../design/system_top.sv:41.7-48.6
 Info:                  ../design/keypad_reader.sv:5.24-5.32
-Info:  0.0  2.7  Setup keypad_inst.columnas_ff1_DFFP_Q_2_DFFLC.A
-Info: 0.0 ns logic, 2.7 ns routing
+Info:  0.0  3.4  Setup keypad_inst.columnas_ff1_DFFP_Q_2_DFFLC.A
+Info: 0.0 ns logic, 3.4 ns routing
 
 Info: Critical path report for cross-domain path 'posedge display_inst.clk' -> '<async>':
 Info: curr total
-Info:  0.5  0.5  Source input_inst.divisor_temp_DFFCE_Q_3_D_LUT4_F_LC.Q
-Info:  3.2  3.7    Net input_inst.divisor_temp[2] budget 36.579037 ns (3,5) -> (13,3)
-Info:                Sink display_inst.display_value_MUX2_LUT7_O_3_I0_MUX2_LUT6_O_I1_MUX2_LUT5_O_I0_LUT1_F_LC.A
+Info:  0.5  0.5  Source divider_inst.quotient_comb_LUT3_F_1_LC.Q
+Info:  2.2  2.7    Net quotient[2] budget 36.579037 ns (11,3) -> (8,6)
+Info:                Sink display_inst.display_value_MUX2_LUT7_O_4_I1_MUX2_LUT6_O_I0_MUX2_LUT5_O_I1_LUT1_F_LC.A
 Info:                Defined in:
-Info:                  ../design/system_top.sv:50.22-60.6
-Info:                  ../design/input_controller.sv:26.17-26.29
-Info:  1.0  4.7  Source display_inst.display_value_MUX2_LUT7_O_3_I0_MUX2_LUT6_O_I1_MUX2_LUT5_O_I0_LUT1_F_LC.F
-Info:  0.3  5.0    Net display_inst.display_value_MUX2_LUT7_O_3_I0_MUX2_LUT6_O_I1_MUX2_LUT5_O_I0 budget 6.897208 ns (13,3) -> (13,3)
-Info:                Sink display_inst.display_value_MUX2_LUT7_O_3_I0_MUX2_LUT6_O_I1_MUX2_LUT5_O_LC.I0
+Info:                  ../design/system_top.sv:26.17-26.25
+Info:  1.0  3.7  Source display_inst.display_value_MUX2_LUT7_O_4_I1_MUX2_LUT6_O_I0_MUX2_LUT5_O_I1_LUT1_F_LC.F
+Info:  0.3  4.1    Net display_inst.display_value_MUX2_LUT7_O_4_I1_MUX2_LUT6_O_I0_MUX2_LUT5_O_I1 budget 6.897208 ns (8,6) -> (8,6)
+Info:                Sink display_inst.display_value_MUX2_LUT7_O_4_I1_MUX2_LUT6_O_I0_MUX2_LUT5_O_LC.I1
 Info:                Defined in:
-Info:                  /home/adonay/Downloads/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:164.41-164.66
-Info:                  /home/adonay/Downloads/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:159.41-159.66
-Info:                  /home/adonay/Downloads/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:151.9-151.11
-Info:  0.2  5.2  Source display_inst.display_value_MUX2_LUT7_O_3_I0_MUX2_LUT6_O_I1_MUX2_LUT5_O_LC.OF
-Info:  0.3  5.5    Net display_inst.display_value_MUX2_LUT7_O_3_I0_MUX2_LUT6_O_I1 budget 6.897208 ns (13,3) -> (13,3)
-Info:                Sink display_inst.display_value_MUX2_LUT7_O_3_I0_MUX2_LUT6_O_LC.I1
-Info:                Defined in:
-Info:                  /home/adonay/Downloads/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:164.41-164.66
-Info:                  /home/adonay/Downloads/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:157.13-157.15
-Info:  0.4  5.9  Source display_inst.display_value_MUX2_LUT7_O_3_I0_MUX2_LUT6_O_LC.OF
-Info:  0.3  6.2    Net display_inst.display_value_MUX2_LUT7_O_3_I0 budget 6.897208 ns (13,3) -> (13,3)
-Info:                Sink display_inst.display_value_MUX2_LUT7_O_3_LC.I0
-Info:                Defined in:
-Info:                  /home/adonay/Downloads/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:163.9-163.11
-Info:  0.5  6.7  Source display_inst.display_value_MUX2_LUT7_O_3_LC.OF
-Info:  2.2  9.0    Net display_inst.display_value[2] budget 6.897208 ns (13,3) -> (14,8)
-Info:                Sink display_inst.bcd_inst.bin_i_MUX2_LUT8_O_2_S0_ALU_SUM_COUT_ALU_CIN_SUM_MUX2_LUT7_O_I1_MUX2_LUT6_O_I1_MUX2_LUT5_O_I1_LUT4_F_LC.A
-Info:                Defined in:
-Info:                  ../design/system_top.sv:104.31-114.6
-Info:                  ../design/display_result_controller.sv:19.17-19.30
-Info:  1.0 10.0  Source display_inst.bcd_inst.bin_i_MUX2_LUT8_O_2_S0_ALU_SUM_COUT_ALU_CIN_SUM_MUX2_LUT7_O_I1_MUX2_LUT6_O_I1_MUX2_LUT5_O_I1_LUT4_F_LC.F
-Info:  0.3 10.3    Net display_inst.bcd_inst.bin_i_MUX2_LUT8_O_2_S0_ALU_SUM_COUT_ALU_CIN_SUM_MUX2_LUT7_O_I1_MUX2_LUT6_O_I1_MUX2_LUT5_O_I1 budget 3.591782 ns (14,8) -> (14,8)
-Info:                Sink display_inst.bcd_inst.bin_i_MUX2_LUT8_O_2_S0_ALU_SUM_COUT_ALU_CIN_SUM_MUX2_LUT7_O_I1_MUX2_LUT6_O_I1_MUX2_LUT5_O_LC.I1
-Info:                Defined in:
-Info:                  /home/adonay/Downloads/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:165.42-165.67
-Info:                  /home/adonay/Downloads/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:159.41-159.66
-Info:                  /home/adonay/Downloads/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:151.13-151.15
-Info:  0.2 10.5  Source display_inst.bcd_inst.bin_i_MUX2_LUT8_O_2_S0_ALU_SUM_COUT_ALU_CIN_SUM_MUX2_LUT7_O_I1_MUX2_LUT6_O_I1_MUX2_LUT5_O_LC.OF
-Info:  0.3 10.8    Net display_inst.bcd_inst.bin_i_MUX2_LUT8_O_2_S0_ALU_SUM_COUT_ALU_CIN_SUM_MUX2_LUT7_O_I1_MUX2_LUT6_O_I1 budget 3.591782 ns (14,8) -> (14,8)
-Info:                Sink display_inst.bcd_inst.bin_i_MUX2_LUT8_O_2_S0_ALU_SUM_COUT_ALU_CIN_SUM_MUX2_LUT7_O_I1_MUX2_LUT6_O_LC.I1
-Info:                Defined in:
-Info:                  /home/adonay/Downloads/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:165.42-165.67
-Info:                  /home/adonay/Downloads/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:157.13-157.15
-Info:  0.4 11.2  Source display_inst.bcd_inst.bin_i_MUX2_LUT8_O_2_S0_ALU_SUM_COUT_ALU_CIN_SUM_MUX2_LUT7_O_I1_MUX2_LUT6_O_LC.OF
-Info:  0.3 11.5    Net display_inst.bcd_inst.bin_i_MUX2_LUT8_O_2_S0_ALU_SUM_COUT_ALU_CIN_SUM_MUX2_LUT7_O_I1 budget 3.591782 ns (14,8) -> (14,8)
-Info:                Sink display_inst.bcd_inst.bin_i_MUX2_LUT8_O_2_S0_ALU_SUM_COUT_ALU_CIN_SUM_MUX2_LUT7_O_LC.I1
-Info:                Defined in:
-Info:                  /home/adonay/Downloads/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:163.13-163.15
-Info:  0.5 12.0  Source display_inst.bcd_inst.bin_i_MUX2_LUT8_O_2_S0_ALU_SUM_COUT_ALU_CIN_SUM_MUX2_LUT7_O_LC.OF
-Info:  1.4 13.5    Net result_ready_MUX2_LUT8_S0_O_ALU_SUM_2_COUT_ALU_COUT_SUM[4] budget 3.591782 ns (14,8) -> (15,11)
-Info:                Sink display_inst.bcd_inst.bin_i_LUT3_F_LC.C
-Info:                Defined in:
-Info:                  /home/adonay/Downloads/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:130.20-130.21
-Info:  0.8 14.3  Source display_inst.bcd_inst.bin_i_LUT3_F_LC.F
-Info:  1.9 16.2    Net display_inst.display_mod100[6] budget 3.150403 ns (15,11) -> (17,6)
-Info:                Sink result_ready_MUX2_LUT8_S0_O_ALU_SUM_2_COUT_ALU_COUT_SUM_ALU_SUM_ALULC.A
-Info:                Defined in:
-Info:                  ../design/system_top.sv:104.31-114.6
-Info:                  ../design/display_result_controller.sv:20.17-20.31
-Info:  1.0 17.2  Source result_ready_MUX2_LUT8_S0_O_ALU_SUM_2_COUT_ALU_COUT_SUM_ALU_SUM_ALULC.F
-Info:  0.3 17.6    Net result_ready_MUX2_LUT8_S0_O_ALU_SUM_2_COUT_ALU_COUT_SUM[2] budget 2.770276 ns (17,6) -> (17,6)
-Info:                Sink result_ready_MUX2_LUT8_S0_O_ALU_SUM_2_COUT_ALU_COUT_SUM_LUT3_I0_LC.A
-Info:                Defined in:
-Info:                  ../design/bin_to_bcd.sv:11.21-11.34
-Info:                  /home/adonay/Downloads/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/techmap.v:428.4-432.3
-Info:                  /home/adonay/Downloads/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/techmap.v:332.63-332.98
-Info:                  /home/adonay/Downloads/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/techmap.v:368.4-373.3
-Info:                  /home/adonay/Downloads/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/techmap.v:400.4-404.3
-Info:                  ../design/display_result_controller.sv:41.16-45.6
-Info:                  ../design/bin_to_bcd.sv:10.21-10.34
-Info:                  ../design/system_top.sv:104.31-114.6
-Info:                  /home/adonay/Downloads/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:34.28-34.29
-Info:  1.0 18.6  Source result_ready_MUX2_LUT8_S0_O_ALU_SUM_2_COUT_ALU_COUT_SUM_LUT3_I0_LC.F
-Info:  1.2 19.8    Net result_ready_MUX2_LUT8_S0_O_ALU_SUM_2_COUT_ALU_COUT_SUM_LUT3_I0_F[6] budget 2.453503 ns (17,6) -> (18,5)
-Info:                Sink result_ready_MUX2_LUT8_S0_O_ALU_SUM_2_COUT_ALU_COUT_ALULC.A
-Info:                Defined in:
-Info:                  ../design/system_top.sv:104.31-114.6
-Info:                  ../design/bin_to_bcd.sv:11.21-11.34
-Info:                  ../design/display_result_controller.sv:41.16-45.6
-Info:                  /home/adonay/Downloads/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/techmap.v:428.4-432.3
-Info:                  /home/adonay/Downloads/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/techmap.v:368.4-373.3
-Info:                  /home/adonay/Downloads/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/techmap.v:316.25-316.34
-Info:  1.0 20.9  Source result_ready_MUX2_LUT8_S0_O_ALU_SUM_2_COUT_ALU_COUT_ALULC.F
-Info:  1.4 22.3    Net result_ready_MUX2_LUT8_S0_O_ALU_SUM_2_COUT_ALU_COUT_SUM[3] budget 2.185464 ns (18,5) -> (14,6)
-Info:                Sink result_ready_MUX2_LUT8_S0_O_ALU_SUM_COUT_ALU_COUT_SUM_MUX2_LUT8_O_I1_MUX2_LUT7_O_I0_MUX2_LUT6_O_I1_MUX2_LUT5_O_I1_LUT1_F_LC.A
-Info:                Defined in:
-Info:                  /home/adonay/Downloads/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:130.20-130.21
-Info:  1.0 23.3  Source result_ready_MUX2_LUT8_S0_O_ALU_SUM_COUT_ALU_COUT_SUM_MUX2_LUT8_O_I1_MUX2_LUT7_O_I0_MUX2_LUT6_O_I1_MUX2_LUT5_O_I1_LUT1_F_LC.F
-Info:  0.3 23.6    Net result_ready_MUX2_LUT8_S0_O_ALU_SUM_COUT_ALU_COUT_SUM_MUX2_LUT8_O_I1_MUX2_LUT7_O_I0_MUX2_LUT6_O_I1_MUX2_LUT5_O_I1 budget 1.422780 ns (14,6) -> (14,6)
-Info:                Sink result_ready_MUX2_LUT8_S0_O_ALU_SUM_COUT_ALU_COUT_SUM_MUX2_LUT8_O_I1_MUX2_LUT7_O_I0_MUX2_LUT6_O_I1_MUX2_LUT5_O_LC.I1
-Info:                Defined in:
-Info:                  /home/adonay/Downloads/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:171.43-171.68
-Info:                  /home/adonay/Downloads/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:164.41-164.66
-Info:                  /home/adonay/Downloads/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:159.41-159.66
-Info:                  /home/adonay/Downloads/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:151.13-151.15
-Info:  0.2 23.8  Source result_ready_MUX2_LUT8_S0_O_ALU_SUM_COUT_ALU_COUT_SUM_MUX2_LUT8_O_I1_MUX2_LUT7_O_I0_MUX2_LUT6_O_I1_MUX2_LUT5_O_LC.OF
-Info:  0.3 24.2    Net result_ready_MUX2_LUT8_S0_O_ALU_SUM_COUT_ALU_COUT_SUM_MUX2_LUT8_O_I1_MUX2_LUT7_O_I0_MUX2_LUT6_O_I1 budget 1.422780 ns (14,6) -> (14,6)
-Info:                Sink result_ready_MUX2_LUT8_S0_O_ALU_SUM_COUT_ALU_COUT_SUM_MUX2_LUT8_O_I1_MUX2_LUT7_O_I0_MUX2_LUT6_O_LC.I1
-Info:                Defined in:
-Info:                  /home/adonay/Downloads/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:171.43-171.68
-Info:                  /home/adonay/Downloads/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:164.41-164.66
-Info:                  /home/adonay/Downloads/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:157.13-157.15
-Info:  0.4 24.5  Source result_ready_MUX2_LUT8_S0_O_ALU_SUM_COUT_ALU_COUT_SUM_MUX2_LUT8_O_I1_MUX2_LUT7_O_I0_MUX2_LUT6_O_LC.OF
-Info:  0.3 24.8    Net result_ready_MUX2_LUT8_S0_O_ALU_SUM_COUT_ALU_COUT_SUM_MUX2_LUT8_O_I1_MUX2_LUT7_O_I0 budget 1.422780 ns (14,6) -> (14,6)
-Info:                Sink result_ready_MUX2_LUT8_S0_O_ALU_SUM_COUT_ALU_COUT_SUM_MUX2_LUT8_O_I1_MUX2_LUT7_O_LC.I0
-Info:                Defined in:
-Info:                  /home/adonay/Downloads/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:171.43-171.68
-Info:                  /home/adonay/Downloads/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:163.9-163.11
-Info:  0.5 25.4  Source result_ready_MUX2_LUT8_S0_O_ALU_SUM_COUT_ALU_COUT_SUM_MUX2_LUT8_O_I1_MUX2_LUT7_O_LC.OF
-Info:  0.3 25.7    Net result_ready_MUX2_LUT8_S0_O_ALU_SUM_COUT_ALU_COUT_SUM_MUX2_LUT8_O_I1 budget 1.422780 ns (14,6) -> (14,6)
-Info:                Sink result_ready_MUX2_LUT8_S0_O_ALU_SUM_COUT_ALU_COUT_SUM_MUX2_LUT8_O_LC.I1
-Info:                Defined in:
-Info:                  /home/adonay/Downloads/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:169.13-169.15
-Info:  0.7 26.4  Source result_ready_MUX2_LUT8_S0_O_ALU_SUM_COUT_ALU_COUT_SUM_MUX2_LUT8_O_LC.OF
-Info:  2.4 28.8    Net result_ready_MUX2_LUT8_S0_O_ALU_SUM_COUT_ALU_COUT_SUM[0] budget 1.422780 ns (14,6) -> (21,5)
-Info:                Sink result_ready_MUX2_LUT8_S0_O_ALU_SUM_2_COUT_ALU_COUT_SUM_LUT3_I0_F_LUT2_F_2_LC.A
-Info:                Defined in:
-Info:                  /home/adonay/Downloads/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:130.20-130.21
-Info:  1.0 29.8  Source result_ready_MUX2_LUT8_S0_O_ALU_SUM_2_COUT_ALU_COUT_SUM_LUT3_I0_F_LUT2_F_2_LC.F
-Info:  0.8 30.6    Net result_ready_MUX2_LUT8_S0_O_ALU_SUM_2_COUT_ALU_COUT_SUM_LUT3_I0_F[20] budget 1.271212 ns (21,5) -> (21,3)
-Info:                Sink result_ready_MUX2_LUT8_S0_O_ALU_SUM_COUT_ALU_COUT_ALULC.A
-Info:                Defined in:
-Info:                  ../design/system_top.sv:104.31-114.6
-Info:                  ../design/bin_to_bcd.sv:11.21-11.34
-Info:                  ../design/display_result_controller.sv:41.16-45.6
-Info:                  /home/adonay/Downloads/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/techmap.v:428.4-432.3
-Info:                  /home/adonay/Downloads/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/techmap.v:368.4-373.3
-Info:                  /home/adonay/Downloads/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/techmap.v:316.25-316.34
-Info:  1.0 31.7  Source result_ready_MUX2_LUT8_S0_O_ALU_SUM_COUT_ALU_COUT_ALULC.F
-Info:  0.9 32.5    Net result_ready_MUX2_LUT8_S0_O_ALU_SUM_COUT_ALU_COUT_4_SUM[6] budget 1.156102 ns (21,3) -> (21,5)
-Info:                Sink result_ready_MUX2_LUT8_S0_O_ALU_SUM_2_COUT_ALU_COUT_SUM_LUT3_I0_F_LUT3_F_16_LC.A
-Info:                Defined in:
-Info:                  /home/adonay/Downloads/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:130.20-130.21
-Info:  1.0 33.6  Source result_ready_MUX2_LUT8_S0_O_ALU_SUM_2_COUT_ALU_COUT_SUM_LUT3_I0_F_LUT3_F_16_LC.F
-Info:  0.9 34.5    Net result_ready_MUX2_LUT8_S0_O_ALU_SUM_2_COUT_ALU_COUT_SUM_LUT3_I0_F[27] budget 1.051954 ns (21,5) -> (21,6)
-Info:                Sink result_ready_MUX2_LUT8_S0_O_ALU_SUM_COUT_ALU_COUT_SUM_ALU_SUM_1_ALULC.A
-Info:                Defined in:
-Info:                  ../design/system_top.sv:104.31-114.6
-Info:                  ../design/bin_to_bcd.sv:11.21-11.34
-Info:                  ../design/display_result_controller.sv:41.16-45.6
-Info:                  /home/adonay/Downloads/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/techmap.v:428.4-432.3
-Info:                  /home/adonay/Downloads/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/techmap.v:368.4-373.3
-Info:                  /home/adonay/Downloads/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/techmap.v:316.25-316.34
-Info:  1.0 35.5  Source result_ready_MUX2_LUT8_S0_O_ALU_SUM_COUT_ALU_COUT_SUM_ALU_SUM_1_ALULC.F
-Info:  1.7 37.2    Net result_ready_MUX2_LUT8_S0_O_ALU_SUM_COUT_ALU_COUT_SUM[3] budget 0.957274 ns (21,6) -> (23,5)
-Info:                Sink result_ready_MUX2_LUT8_S0_O_ALU_SUM_COUT_ALU_COUT_SUM_ALU_SUM_COUT_ALU_COUT_SUM_LUT2_I0_F_MUX2_LUT5_I0_O_MUX2_LUT6_I0_O_MUX2_LUT8_O_I0_MUX2_LUT7_O_I1_MUX2_LUT6_O_I0_MUX2_LUT5_O_I1_LUT1_F_LC.A
-Info:                Defined in:
-Info:                  /home/adonay/Downloads/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:130.20-130.21
-Info:  1.0 38.2  Source result_ready_MUX2_LUT8_S0_O_ALU_SUM_COUT_ALU_COUT_SUM_ALU_SUM_COUT_ALU_COUT_SUM_LUT2_I0_F_MUX2_LUT5_I0_O_MUX2_LUT6_I0_O_MUX2_LUT8_O_I0_MUX2_LUT7_O_I1_MUX2_LUT6_O_I0_MUX2_LUT5_O_I1_LUT1_F_LC.F
-Info:  0.3 38.6    Net result_ready_MUX2_LUT8_S0_O_ALU_SUM_COUT_ALU_COUT_SUM_ALU_SUM_COUT_ALU_COUT_SUM_LUT2_I0_F_MUX2_LUT5_I0_O_MUX2_LUT6_I0_O_MUX2_LUT8_O_I0_MUX2_LUT7_O_I1_MUX2_LUT6_O_I0_MUX2_LUT5_O_I1 budget 0.676261 ns (23,5) -> (23,5)
-Info:                Sink result_ready_MUX2_LUT8_S0_O_ALU_SUM_COUT_ALU_COUT_SUM_ALU_SUM_COUT_ALU_COUT_SUM_LUT2_I0_F_MUX2_LUT5_I0_O_MUX2_LUT6_I0_O_MUX2_LUT8_O_I0_MUX2_LUT7_O_I1_MUX2_LUT6_O_I0_MUX2_LUT5_O_LC.I1
-Info:                Defined in:
-Info:                  /home/adonay/Downloads/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:170.42-170.67
 Info:                  /home/adonay/Downloads/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:165.42-165.67
 Info:                  /home/adonay/Downloads/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:158.41-158.66
 Info:                  /home/adonay/Downloads/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:151.13-151.15
-Info:  0.2 38.7  Source result_ready_MUX2_LUT8_S0_O_ALU_SUM_COUT_ALU_COUT_SUM_ALU_SUM_COUT_ALU_COUT_SUM_LUT2_I0_F_MUX2_LUT5_I0_O_MUX2_LUT6_I0_O_MUX2_LUT8_O_I0_MUX2_LUT7_O_I1_MUX2_LUT6_O_I0_MUX2_LUT5_O_LC.OF
-Info:  0.3 39.1    Net result_ready_MUX2_LUT8_S0_O_ALU_SUM_COUT_ALU_COUT_SUM_ALU_SUM_COUT_ALU_COUT_SUM_LUT2_I0_F_MUX2_LUT5_I0_O_MUX2_LUT6_I0_O_MUX2_LUT8_O_I0_MUX2_LUT7_O_I1_MUX2_LUT6_O_I0 budget 0.676261 ns (23,5) -> (23,5)
-Info:                Sink result_ready_MUX2_LUT8_S0_O_ALU_SUM_COUT_ALU_COUT_SUM_ALU_SUM_COUT_ALU_COUT_SUM_LUT2_I0_F_MUX2_LUT5_I0_O_MUX2_LUT6_I0_O_MUX2_LUT8_O_I0_MUX2_LUT7_O_I1_MUX2_LUT6_O_LC.I0
+Info:  0.2  4.2  Source display_inst.display_value_MUX2_LUT7_O_4_I1_MUX2_LUT6_O_I0_MUX2_LUT5_O_LC.OF
+Info:  0.3  4.6    Net display_inst.display_value_MUX2_LUT7_O_4_I1_MUX2_LUT6_O_I0 budget 6.897208 ns (8,6) -> (8,6)
+Info:                Sink display_inst.display_value_MUX2_LUT7_O_4_I1_MUX2_LUT6_O_LC.I0
+Info:                Defined in:
+Info:                  /home/adonay/Downloads/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:165.42-165.67
+Info:                  /home/adonay/Downloads/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:157.9-157.11
+Info:  0.4  4.9  Source display_inst.display_value_MUX2_LUT7_O_4_I1_MUX2_LUT6_O_LC.OF
+Info:  0.3  5.2    Net display_inst.display_value_MUX2_LUT7_O_4_I1 budget 6.897208 ns (8,6) -> (8,6)
+Info:                Sink display_inst.display_value_MUX2_LUT7_O_4_LC.I1
+Info:                Defined in:
+Info:                  /home/adonay/Downloads/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:163.13-163.15
+Info:  0.5  5.8  Source display_inst.display_value_MUX2_LUT7_O_4_LC.OF
+Info:  3.3  9.1    Net display_inst.display_value[2] budget 6.897208 ns (8,6) -> (19,7)
+Info:                Sink display_inst.bcd_inst.bin_i_LUT3_F_4_I0_ALU_SUM_2_COUT_ALU_COUT_1_SUM_MUX2_LUT8_O_I1_MUX2_LUT7_O_I1_MUX2_LUT6_O_I1_MUX2_LUT5_O_I1_LUT4_F_LC.C
+Info:                Defined in:
+Info:                  ../design/system_top.sv:104.31-114.6
+Info:                  ../design/display_result_controller.sv:19.17-19.30
+Info:  0.8  9.9  Source display_inst.bcd_inst.bin_i_LUT3_F_4_I0_ALU_SUM_2_COUT_ALU_COUT_1_SUM_MUX2_LUT8_O_I1_MUX2_LUT7_O_I1_MUX2_LUT6_O_I1_MUX2_LUT5_O_I1_LUT4_F_LC.F
+Info:  0.3 10.2    Net display_inst.bcd_inst.bin_i_LUT3_F_4_I0_ALU_SUM_2_COUT_ALU_COUT_1_SUM_MUX2_LUT8_O_I1_MUX2_LUT7_O_I1_MUX2_LUT6_O_I1_MUX2_LUT5_O_I1 budget 3.189404 ns (19,7) -> (19,7)
+Info:                Sink display_inst.bcd_inst.bin_i_LUT3_F_4_I0_ALU_SUM_2_COUT_ALU_COUT_1_SUM_MUX2_LUT8_O_I1_MUX2_LUT7_O_I1_MUX2_LUT6_O_I1_MUX2_LUT5_O_LC.I1
+Info:                Defined in:
+Info:                  /home/adonay/Downloads/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:171.43-171.68
+Info:                  /home/adonay/Downloads/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:165.42-165.67
+Info:                  /home/adonay/Downloads/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:159.41-159.66
+Info:                  /home/adonay/Downloads/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:151.13-151.15
+Info:  0.2 10.4  Source display_inst.bcd_inst.bin_i_LUT3_F_4_I0_ALU_SUM_2_COUT_ALU_COUT_1_SUM_MUX2_LUT8_O_I1_MUX2_LUT7_O_I1_MUX2_LUT6_O_I1_MUX2_LUT5_O_LC.OF
+Info:  0.3 10.7    Net display_inst.bcd_inst.bin_i_LUT3_F_4_I0_ALU_SUM_2_COUT_ALU_COUT_1_SUM_MUX2_LUT8_O_I1_MUX2_LUT7_O_I1_MUX2_LUT6_O_I1 budget 3.189404 ns (19,7) -> (19,7)
+Info:                Sink display_inst.bcd_inst.bin_i_LUT3_F_4_I0_ALU_SUM_2_COUT_ALU_COUT_1_SUM_MUX2_LUT8_O_I1_MUX2_LUT7_O_I1_MUX2_LUT6_O_LC.I1
+Info:                Defined in:
+Info:                  /home/adonay/Downloads/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:171.43-171.68
+Info:                  /home/adonay/Downloads/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:165.42-165.67
+Info:                  /home/adonay/Downloads/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:157.13-157.15
+Info:  0.4 11.1  Source display_inst.bcd_inst.bin_i_LUT3_F_4_I0_ALU_SUM_2_COUT_ALU_COUT_1_SUM_MUX2_LUT8_O_I1_MUX2_LUT7_O_I1_MUX2_LUT6_O_LC.OF
+Info:  0.3 11.4    Net display_inst.bcd_inst.bin_i_LUT3_F_4_I0_ALU_SUM_2_COUT_ALU_COUT_1_SUM_MUX2_LUT8_O_I1_MUX2_LUT7_O_I1 budget 3.189404 ns (19,7) -> (19,7)
+Info:                Sink display_inst.bcd_inst.bin_i_LUT3_F_4_I0_ALU_SUM_2_COUT_ALU_COUT_1_SUM_MUX2_LUT8_O_I1_MUX2_LUT7_O_LC.I1
+Info:                Defined in:
+Info:                  /home/adonay/Downloads/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:171.43-171.68
+Info:                  /home/adonay/Downloads/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:163.13-163.15
+Info:  0.5 11.9  Source display_inst.bcd_inst.bin_i_LUT3_F_4_I0_ALU_SUM_2_COUT_ALU_COUT_1_SUM_MUX2_LUT8_O_I1_MUX2_LUT7_O_LC.OF
+Info:  0.3 12.2    Net display_inst.bcd_inst.bin_i_LUT3_F_4_I0_ALU_SUM_2_COUT_ALU_COUT_1_SUM_MUX2_LUT8_O_I1 budget 3.189404 ns (19,7) -> (19,7)
+Info:                Sink display_inst.bcd_inst.bin_i_LUT3_F_4_I0_ALU_SUM_2_COUT_ALU_COUT_1_SUM_MUX2_LUT8_O_LC.I1
+Info:                Defined in:
+Info:                  /home/adonay/Downloads/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:169.13-169.15
+Info:  0.7 13.0  Source display_inst.bcd_inst.bin_i_LUT3_F_4_I0_ALU_SUM_2_COUT_ALU_COUT_1_SUM_MUX2_LUT8_O_LC.OF
+Info:  0.8 13.8    Net display_inst.bcd_inst.bin_i_LUT3_F_1_I0[4] budget 3.189404 ns (19,7) -> (21,7)
+Info:                Sink display_inst.bcd_inst.bin_i_LUT3_F_3_LC.C
+Info:                Defined in:
+Info:                  /home/adonay/Downloads/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:130.20-130.21
+Info:  0.8 14.6  Source display_inst.bcd_inst.bin_i_LUT3_F_3_LC.F
+Info:  2.2 16.8    Net display_inst.display_mod100[3] budget 2.824731 ns (21,7) -> (22,3)
+Info:                Sink display_inst.bcd_inst.bin_i_LUT3_F_I0_ALU_SUM_1_COUT_ALU_COUT_1_ALULC.A
+Info:                Defined in:
+Info:                  ../design/system_top.sv:104.31-114.6
+Info:                  ../design/display_result_controller.sv:20.17-20.31
+Info:  1.0 17.8  Source display_inst.bcd_inst.bin_i_LUT3_F_I0_ALU_SUM_1_COUT_ALU_COUT_1_ALULC.F
+Info:  0.8 18.6    Net display_inst.bcd_inst.bin_i_LUT3_F_I0_ALU_SUM_COUT_ALU_COUT_1_SUM[2] budget 2.503420 ns (22,3) -> (21,3)
+Info:                Sink display_inst.bcd_inst.bin_i_LUT3_F_I0_ALU_SUM_COUT_ALU_COUT_1_SUM_LUT3_I0_LC.A
+Info:                Defined in:
+Info:                  /home/adonay/Downloads/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:130.20-130.21
+Info:  1.0 19.6  Source display_inst.bcd_inst.bin_i_LUT3_F_I0_ALU_SUM_COUT_ALU_COUT_1_SUM_LUT3_I0_LC.F
+Info:  0.4 20.0    Net display_inst.bcd_inst.bin_i_LUT3_F_I0_ALU_SUM_COUT_ALU_COUT_1_SUM_LUT3_I0_F[3] budget 2.231541 ns (21,3) -> (21,2)
+Info:                Sink display_inst.bcd_inst.bin_i_LUT3_F_I0_ALU_SUM_COUT_ALU_COUT_1_ALULC.A
+Info:                Defined in:
+Info:                  ../design/system_top.sv:104.31-114.6
+Info:                  ../design/bin_to_bcd.sv:11.21-11.34
+Info:                  ../design/display_result_controller.sv:41.16-45.6
+Info:                  /home/adonay/Downloads/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/techmap.v:428.4-432.3
+Info:                  /home/adonay/Downloads/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/techmap.v:368.4-373.3
+Info:                  /home/adonay/Downloads/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/techmap.v:316.25-316.34
+Info:  1.0 21.1  Source display_inst.bcd_inst.bin_i_LUT3_F_I0_ALU_SUM_COUT_ALU_COUT_1_ALULC.F
+Info:  1.4 22.5    Net display_inst.bcd_inst.bin_i_LUT3_F_I0_ALU_SUM_COUT_ALU_COUT_1_SUM[3] budget 1.998503 ns (21,2) -> (20,5)
+Info:                Sink display_inst.bcd_inst.bin_i_LUT3_F_I0_ALU_SUM_COUT_ALU_COUT_1_SUM_LUT1_I0_LC.A
+Info:                Defined in:
+Info:                  /home/adonay/Downloads/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:130.20-130.21
+Info:  1.0 23.5  Source display_inst.bcd_inst.bin_i_LUT3_F_I0_ALU_SUM_COUT_ALU_COUT_1_SUM_LUT1_I0_LC.F
+Info:  0.3 23.9    Net display_inst.bcd_inst.bin_i_LUT3_F_I0_ALU_SUM_COUT_ALU_COUT_1_SUM_LUT1_I0_F budget 1.325160 ns (20,5) -> (20,5)
+Info:                Sink display_inst.bcd_inst.bin_i_LUT3_F_I0_ALU_SUM_COUT_ALU_COUT_1_SUM_LUT1_I0_F_MUX2_LUT5_I1_LC.I1
+Info:                Defined in:
+Info:                  /home/adonay/Downloads/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:171.43-171.68
+Info:                  /home/adonay/Downloads/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:164.41-164.66
+Info:                  /home/adonay/Downloads/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:159.41-159.66
+Info:                  /home/adonay/Downloads/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:151.13-151.15
+Info:  0.2 24.0  Source display_inst.bcd_inst.bin_i_LUT3_F_I0_ALU_SUM_COUT_ALU_COUT_1_SUM_LUT1_I0_F_MUX2_LUT5_I1_LC.OF
+Info:  0.3 24.4    Net display_inst.bcd_inst.bin_i_LUT3_F_I0_ALU_SUM_COUT_ALU_COUT_1_SUM_LUT1_I0_F_MUX2_LUT5_I1_O budget 1.325160 ns (20,5) -> (20,5)
+Info:                Sink display_inst.bcd_inst.bin_i_LUT3_F_I0_ALU_SUM_COUT_ALU_COUT_1_SUM_LUT1_I0_F_MUX2_LUT5_I1_O_MUX2_LUT6_I1_LC.I1
+Info:                Defined in:
+Info:                  /home/adonay/Downloads/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:171.43-171.68
+Info:                  /home/adonay/Downloads/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:164.41-164.66
+Info:                  /home/adonay/Downloads/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:157.13-157.15
+Info:  0.4 24.7  Source display_inst.bcd_inst.bin_i_LUT3_F_I0_ALU_SUM_COUT_ALU_COUT_1_SUM_LUT1_I0_F_MUX2_LUT5_I1_O_MUX2_LUT6_I1_LC.OF
+Info:  0.3 25.0    Net display_inst.bcd_inst.bin_i_LUT3_F_I0_ALU_SUM_COUT_ALU_COUT_3_SUM_ALU_SUM_COUT_ALU_COUT_SUM_LUT2_I1_4_F_MUX2_LUT8_O_I1_MUX2_LUT7_O_I0 budget 1.325160 ns (20,5) -> (20,5)
+Info:                Sink display_inst.bcd_inst.bin_i_LUT3_F_I0_ALU_SUM_COUT_ALU_COUT_3_SUM_ALU_SUM_COUT_ALU_COUT_SUM_LUT2_I1_4_F_MUX2_LUT8_O_I1_MUX2_LUT7_O_LC.I0
+Info:                Defined in:
+Info:                  /home/adonay/Downloads/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:171.43-171.68
+Info:                  /home/adonay/Downloads/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:163.9-163.11
+Info:  0.5 25.6  Source display_inst.bcd_inst.bin_i_LUT3_F_I0_ALU_SUM_COUT_ALU_COUT_3_SUM_ALU_SUM_COUT_ALU_COUT_SUM_LUT2_I1_4_F_MUX2_LUT8_O_I1_MUX2_LUT7_O_LC.OF
+Info:  0.3 25.9    Net display_inst.bcd_inst.bin_i_LUT3_F_I0_ALU_SUM_COUT_ALU_COUT_3_SUM_ALU_SUM_COUT_ALU_COUT_SUM_LUT2_I1_4_F_MUX2_LUT8_O_I1 budget 1.325160 ns (20,5) -> (20,5)
+Info:                Sink display_inst.bcd_inst.bin_i_LUT3_F_I0_ALU_SUM_COUT_ALU_COUT_3_SUM_ALU_SUM_COUT_ALU_COUT_SUM_LUT2_I1_4_F_MUX2_LUT8_O_LC.I1
+Info:                Defined in:
+Info:                  /home/adonay/Downloads/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:169.13-169.15
+Info:  0.7 26.6  Source display_inst.bcd_inst.bin_i_LUT3_F_I0_ALU_SUM_COUT_ALU_COUT_3_SUM_ALU_SUM_COUT_ALU_COUT_SUM_LUT2_I1_4_F_MUX2_LUT8_O_LC.OF
+Info:  1.4 28.0    Net display_inst.bcd_inst.bin_i_LUT3_F_I0_ALU_SUM_COUT_ALU_COUT_3_SUM_ALU_SUM_COUT_ALU_COUT_SUM_LUT2_I1_4_F[0] budget 1.325160 ns (20,5) -> (16,3)
+Info:                Sink display_inst.bcd_inst.bin_i_LUT3_F_I0_ALU_SUM_COUT_ALU_COUT_1_SUM_LUT3_I0_F_LUT2_F_3_LC.A
+Info:                Defined in:
+Info:                  /home/adonay/Downloads/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:130.20-130.21
+Info:  1.0 29.1  Source display_inst.bcd_inst.bin_i_LUT3_F_I0_ALU_SUM_COUT_ALU_COUT_1_SUM_LUT3_I0_F_LUT2_F_3_LC.F
+Info:  0.3 29.4    Net display_inst.bcd_inst.bin_i_LUT3_F_I0_ALU_SUM_COUT_ALU_COUT_1_SUM_LUT3_I0_F[17] budget 1.186052 ns (16,3) -> (16,3)
+Info:                Sink display_inst.bcd_inst.bin_i_LUT3_F_I0_ALU_SUM_COUT_ALU_COUT_3_SUM_ALU_SUM_COUT_ALU_COUT_SUM_LUT2_I1_4_F_ALU_SUM_2_ALULC.A
+Info:                Defined in:
+Info:                  ../design/system_top.sv:104.31-114.6
+Info:                  ../design/bin_to_bcd.sv:11.21-11.34
+Info:                  ../design/display_result_controller.sv:41.16-45.6
+Info:                  /home/adonay/Downloads/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/techmap.v:428.4-432.3
+Info:                  /home/adonay/Downloads/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/techmap.v:368.4-373.3
+Info:                  /home/adonay/Downloads/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/techmap.v:316.25-316.34
+Info:  1.0 30.4  Source display_inst.bcd_inst.bin_i_LUT3_F_I0_ALU_SUM_COUT_ALU_COUT_3_SUM_ALU_SUM_COUT_ALU_COUT_SUM_LUT2_I1_4_F_ALU_SUM_2_ALULC.F
+Info:  0.4 30.8    Net display_inst.bcd_inst.bin_i_LUT3_F_I0_ALU_SUM_COUT_ALU_COUT_3_SUM_ALU_SUM_COUT_ALU_COUT_SUM_LUT2_I1_4_F[2] budget 1.080478 ns (16,3) -> (16,3)
+Info:                Sink display_inst.bcd_inst.bin_i_LUT3_F_I0_ALU_SUM_COUT_ALU_COUT_1_SUM_LUT3_I0_F_LUT3_F_20_LC.A
+Info:                Defined in:
+Info:                  /home/adonay/Downloads/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/techmap.v:332.63-332.98
+Info:                  /home/adonay/Downloads/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/techmap.v:368.4-373.3
+Info:                  /home/adonay/Downloads/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/techmap.v:428.4-432.3
+Info:                  ../design/display_result_controller.sv:41.16-45.6
+Info:                  ../design/bin_to_bcd.sv:11.21-11.34
+Info:                  ../design/system_top.sv:104.31-114.6
+Info:                  /home/adonay/Downloads/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:34.28-34.29
+Info:  1.0 31.9  Source display_inst.bcd_inst.bin_i_LUT3_F_I0_ALU_SUM_COUT_ALU_COUT_1_SUM_LUT3_I0_F_LUT3_F_20_LC.F
+Info:  1.4 33.2    Net display_inst.bcd_inst.bin_i_LUT3_F_I0_ALU_SUM_COUT_ALU_COUT_1_SUM_LUT3_I0_F[24] budget 0.984502 ns (16,3) -> (16,6)
+Info:                Sink display_inst.bcd_inst.bin_i_LUT3_F_I0_ALU_SUM_COUT_ALU_COUT_3_SUM_ALU_SUM_COUT_ALU_COUT_SUM_LUT2_I1_4_F_ALU_SUM_1_ALULC.A
+Info:                Defined in:
+Info:                  ../design/system_top.sv:104.31-114.6
+Info:                  ../design/bin_to_bcd.sv:11.21-11.34
+Info:                  ../design/display_result_controller.sv:41.16-45.6
+Info:                  /home/adonay/Downloads/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/techmap.v:428.4-432.3
+Info:                  /home/adonay/Downloads/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/techmap.v:368.4-373.3
+Info:                  /home/adonay/Downloads/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/techmap.v:316.25-316.34
+Info:  1.0 34.3  Source display_inst.bcd_inst.bin_i_LUT3_F_I0_ALU_SUM_COUT_ALU_COUT_3_SUM_ALU_SUM_COUT_ALU_COUT_SUM_LUT2_I1_4_F_ALU_SUM_1_ALULC.F
+Info:  1.7 36.0    Net display_inst.bcd_inst.bin_i_LUT3_F_I0_ALU_SUM_COUT_ALU_COUT_3_SUM_ALU_SUM_COUT_ALU_COUT_SUM_LUT2_I1_4_F[3] budget 0.896871 ns (16,6) -> (15,3)
+Info:                Sink display_inst.bcd_inst.bin_i_LUT3_F_I0_ALU_SUM_COUT_ALU_COUT_3_SUM_ALU_SUM_COUT_ALU_COUT_SUM_LUT2_I1_4_F_LUT1_I0_LC.A
+Info:                Defined in:
+Info:                  /home/adonay/Downloads/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:130.20-130.21
+Info:  1.0 37.0  Source display_inst.bcd_inst.bin_i_LUT3_F_I0_ALU_SUM_COUT_ALU_COUT_3_SUM_ALU_SUM_COUT_ALU_COUT_SUM_LUT2_I1_4_F_LUT1_I0_LC.F
+Info:  0.3 37.3    Net display_inst.bcd_inst.bin_i_LUT3_F_I0_ALU_SUM_COUT_ALU_COUT_3_SUM_ALU_SUM_COUT_ALU_COUT_SUM_LUT2_I1_4_F_LUT1_I0_F budget 0.636680 ns (15,3) -> (15,3)
+Info:                Sink display_inst.bcd_inst.bin_i_LUT3_F_I0_ALU_SUM_COUT_ALU_COUT_3_SUM_ALU_SUM_COUT_ALU_COUT_SUM_LUT2_I1_4_F_MUX2_LUT5_S0_4_LC.I1
 Info:                Defined in:
 Info:                  /home/adonay/Downloads/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:170.42-170.67
 Info:                  /home/adonay/Downloads/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:165.42-165.67
-Info:                  /home/adonay/Downloads/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:157.9-157.11
-Info:  0.4 39.4  Source result_ready_MUX2_LUT8_S0_O_ALU_SUM_COUT_ALU_COUT_SUM_ALU_SUM_COUT_ALU_COUT_SUM_LUT2_I0_F_MUX2_LUT5_I0_O_MUX2_LUT6_I0_O_MUX2_LUT8_O_I0_MUX2_LUT7_O_I1_MUX2_LUT6_O_LC.OF
-Info:  0.3 39.7    Net result_ready_MUX2_LUT8_S0_O_ALU_SUM_COUT_ALU_COUT_SUM_ALU_SUM_COUT_ALU_COUT_SUM_LUT2_I0_F_MUX2_LUT5_I0_O_MUX2_LUT6_I0_O_MUX2_LUT8_O_I0_MUX2_LUT7_O_I1 budget 0.676261 ns (23,5) -> (23,5)
-Info:                Sink result_ready_MUX2_LUT8_S0_O_ALU_SUM_COUT_ALU_COUT_SUM_ALU_SUM_COUT_ALU_COUT_SUM_LUT2_I0_F_MUX2_LUT5_I0_O_MUX2_LUT6_I0_O_MUX2_LUT8_O_I0_MUX2_LUT7_O_LC.I1
+Info:                  /home/adonay/Downloads/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:159.41-159.66
+Info:                  /home/adonay/Downloads/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:151.13-151.15
+Info:  0.2 37.5  Source display_inst.bcd_inst.bin_i_LUT3_F_I0_ALU_SUM_COUT_ALU_COUT_3_SUM_ALU_SUM_COUT_ALU_COUT_SUM_LUT2_I1_4_F_MUX2_LUT5_S0_4_LC.OF
+Info:  0.3 37.8    Net display_inst.bcd_inst.bin_i_LUT3_F_I0_ALU_SUM_COUT_ALU_COUT_3_SUM_ALU_SUM_COUT_ALU_COUT_SUM_LUT2_I1_4_F_MUX2_LUT5_S0_4_O budget 0.636680 ns (15,3) -> (15,3)
+Info:                Sink display_inst.bcd_inst.bin_i_LUT3_F_I0_ALU_SUM_COUT_ALU_COUT_3_SUM_ALU_SUM_COUT_ALU_COUT_SUM_LUT2_I1_4_F_MUX2_LUT5_S0_5_O_MUX2_LUT6_I0_LC.I1
+Info:                Defined in:
+Info:                  /home/adonay/Downloads/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:170.42-170.67
+Info:                  /home/adonay/Downloads/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:165.42-165.67
+Info:                  /home/adonay/Downloads/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:157.13-157.15
+Info:  0.4 38.2  Source display_inst.bcd_inst.bin_i_LUT3_F_I0_ALU_SUM_COUT_ALU_COUT_3_SUM_ALU_SUM_COUT_ALU_COUT_SUM_LUT2_I1_4_F_MUX2_LUT5_S0_5_O_MUX2_LUT6_I0_LC.OF
+Info:  0.3 38.5    Net display_inst.bcd_inst.bin_i_LUT3_F_I0_ALU_SUM_COUT_ALU_COUT_3_SUM_ALU_SUM_COUT_ALU_COUT_SUM_LUT2_I1_4_F_MUX2_LUT5_S0_5_O_MUX2_LUT6_I0_O budget 0.636680 ns (15,3) -> (15,3)
+Info:                Sink display_inst.bcd_inst.bin_i_LUT3_F_I0_ALU_SUM_COUT_ALU_COUT_3_SUM_ALU_SUM_COUT_ALU_COUT_SUM_LUT2_I1_4_F_MUX2_LUT5_S0_7_O_MUX2_LUT6_I0_O_MUX2_LUT7_I0_LC.I1
 Info:                Defined in:
 Info:                  /home/adonay/Downloads/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:170.42-170.67
 Info:                  /home/adonay/Downloads/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:163.13-163.15
-Info:  0.5 40.3  Source result_ready_MUX2_LUT8_S0_O_ALU_SUM_COUT_ALU_COUT_SUM_ALU_SUM_COUT_ALU_COUT_SUM_LUT2_I0_F_MUX2_LUT5_I0_O_MUX2_LUT6_I0_O_MUX2_LUT8_O_I0_MUX2_LUT7_O_LC.OF
-Info:  0.4 40.7    Net result_ready_MUX2_LUT8_S0_O_ALU_SUM_COUT_ALU_COUT_SUM_ALU_SUM_COUT_ALU_COUT_SUM_LUT2_I0_F_MUX2_LUT5_I0_O_MUX2_LUT6_I0_O_MUX2_LUT8_O_I0 budget 0.676261 ns (23,5) -> (22,5)
-Info:                Sink result_ready_MUX2_LUT8_S0_O_ALU_SUM_COUT_ALU_COUT_SUM_ALU_SUM_COUT_ALU_COUT_SUM_LUT2_I0_F_MUX2_LUT5_I0_O_MUX2_LUT6_I0_O_MUX2_LUT8_O_LC.I0
+Info:  0.5 39.0  Source display_inst.bcd_inst.bin_i_LUT3_F_I0_ALU_SUM_COUT_ALU_COUT_3_SUM_ALU_SUM_COUT_ALU_COUT_SUM_LUT2_I1_4_F_MUX2_LUT5_S0_7_O_MUX2_LUT6_I0_O_MUX2_LUT7_I0_LC.OF
+Info:  0.4 39.5    Net display_inst.bcd_inst.bin_i_LUT3_F_I0_ALU_SUM_COUT_ALU_COUT_3_SUM_ALU_SUM_COUT_ALU_COUT_SUM_LUT2_I1_4_F_MUX2_LUT5_S0_7_O_MUX2_LUT6_I0_O_MUX2_LUT7_I0_O budget 0.636680 ns (15,3) -> (14,3)
+Info:                Sink display_inst.bcd_inst.bin_i_LUT3_F_I0_ALU_SUM_COUT_ALU_COUT_3_SUM_ALU_SUM_COUT_ALU_COUT_SUM_LUT2_I1_4_F_MUX2_LUT5_S0_O_MUX2_LUT6_I1_O_MUX2_LUT7_I1_O_MUX2_LUT8_I1_LC.I0
 Info:                Defined in:
 Info:                  /home/adonay/Downloads/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:169.9-169.11
-Info:  0.7 41.4  Source result_ready_MUX2_LUT8_S0_O_ALU_SUM_COUT_ALU_COUT_SUM_ALU_SUM_COUT_ALU_COUT_SUM_LUT2_I0_F_MUX2_LUT5_I0_O_MUX2_LUT6_I0_O_MUX2_LUT8_O_LC.OF
-Info:  1.7 43.1    Net result_ready_MUX2_LUT8_S0_O_ALU_SUM_2_COUT_ALU_COUT_SUM_LUT3_I0_F[41] budget 0.676261 ns (22,5) -> (24,7)
-Info:                Sink display_inst.mux_inst.d1_ALU_COUT_1_SUM_ALU_SUM_6_I0_LUT3_I0_F_MUX2_LUT5_I0_O_ALU_SUM_COUT_ALU_COUT_1_SUM_MUX2_LUT7_O_I0_MUX2_LUT6_O_I1_MUX2_LUT5_O_I1_LUT4_F_LC.D
+Info:  0.7 40.2  Source display_inst.bcd_inst.bin_i_LUT3_F_I0_ALU_SUM_COUT_ALU_COUT_3_SUM_ALU_SUM_COUT_ALU_COUT_SUM_LUT2_I1_4_F_MUX2_LUT5_S0_O_MUX2_LUT6_I1_O_MUX2_LUT7_I1_O_MUX2_LUT8_I1_LC.OF
+Info:  2.7 42.9    Net display_inst.anodo_LUT2_I0_F[1] budget 0.636680 ns (14,3) -> (18,8)
+Info:                Sink display_inst.anodo_LUT2_I0_2_F_MUX2_LUT7_O_I0_MUX2_LUT6_O_I1_MUX2_LUT5_O_I1_LUT4_F_LC.A
 Info:                Defined in:
 Info:                  /home/adonay/Downloads/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:130.20-130.21
-Info:  0.6 43.7  Source display_inst.mux_inst.d1_ALU_COUT_1_SUM_ALU_SUM_6_I0_LUT3_I0_F_MUX2_LUT5_I0_O_ALU_SUM_COUT_ALU_COUT_1_SUM_MUX2_LUT7_O_I0_MUX2_LUT6_O_I1_MUX2_LUT5_O_I1_LUT4_F_LC.F
-Info:  0.3 44.0    Net display_inst.mux_inst.d1_ALU_COUT_1_SUM_ALU_SUM_6_I0_LUT3_I0_F_MUX2_LUT5_I0_O_ALU_SUM_COUT_ALU_COUT_1_SUM_MUX2_LUT7_O_I0_MUX2_LUT6_O_I1_MUX2_LUT5_O_I1 budget 0.496453 ns (24,7) -> (24,7)
-Info:                Sink display_inst.mux_inst.d1_ALU_COUT_1_SUM_ALU_SUM_6_I0_LUT3_I0_F_MUX2_LUT5_I0_O_ALU_SUM_COUT_ALU_COUT_1_SUM_MUX2_LUT7_O_I0_MUX2_LUT6_O_I1_MUX2_LUT5_O_LC.I1
+Info:  1.0 43.9  Source display_inst.anodo_LUT2_I0_2_F_MUX2_LUT7_O_I0_MUX2_LUT6_O_I1_MUX2_LUT5_O_I1_LUT4_F_LC.F
+Info:  0.3 44.2    Net display_inst.anodo_LUT2_I0_2_F_MUX2_LUT7_O_I0_MUX2_LUT6_O_I1_MUX2_LUT5_O_I1 budget 0.480970 ns (18,8) -> (18,8)
+Info:                Sink display_inst.anodo_LUT2_I0_2_F_MUX2_LUT7_O_I0_MUX2_LUT6_O_I1_MUX2_LUT5_O_LC.I1
 Info:                Defined in:
 Info:                  /home/adonay/Downloads/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:164.41-164.66
 Info:                  /home/adonay/Downloads/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:159.41-159.66
 Info:                  /home/adonay/Downloads/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:151.13-151.15
-Info:  0.2 44.2  Source display_inst.mux_inst.d1_ALU_COUT_1_SUM_ALU_SUM_6_I0_LUT3_I0_F_MUX2_LUT5_I0_O_ALU_SUM_COUT_ALU_COUT_1_SUM_MUX2_LUT7_O_I0_MUX2_LUT6_O_I1_MUX2_LUT5_O_LC.OF
-Info:  0.3 44.5    Net display_inst.mux_inst.d1_ALU_COUT_1_SUM_ALU_SUM_6_I0_LUT3_I0_F_MUX2_LUT5_I0_O_ALU_SUM_COUT_ALU_COUT_1_SUM_MUX2_LUT7_O_I0_MUX2_LUT6_O_I1 budget 0.496453 ns (24,7) -> (24,7)
-Info:                Sink display_inst.mux_inst.d1_ALU_COUT_1_SUM_ALU_SUM_6_I0_LUT3_I0_F_MUX2_LUT5_I0_O_ALU_SUM_COUT_ALU_COUT_1_SUM_MUX2_LUT7_O_I0_MUX2_LUT6_O_LC.I1
+Info:  0.2 44.4  Source display_inst.anodo_LUT2_I0_2_F_MUX2_LUT7_O_I0_MUX2_LUT6_O_I1_MUX2_LUT5_O_LC.OF
+Info:  0.3 44.7    Net display_inst.anodo_LUT2_I0_2_F_MUX2_LUT7_O_I0_MUX2_LUT6_O_I1 budget 0.480970 ns (18,8) -> (18,8)
+Info:                Sink display_inst.anodo_LUT2_I0_2_F_MUX2_LUT7_O_I0_MUX2_LUT6_O_LC.I1
 Info:                Defined in:
 Info:                  /home/adonay/Downloads/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:164.41-164.66
 Info:                  /home/adonay/Downloads/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:157.13-157.15
-Info:  0.4 44.9  Source display_inst.mux_inst.d1_ALU_COUT_1_SUM_ALU_SUM_6_I0_LUT3_I0_F_MUX2_LUT5_I0_O_ALU_SUM_COUT_ALU_COUT_1_SUM_MUX2_LUT7_O_I0_MUX2_LUT6_O_LC.OF
-Info:  0.3 45.2    Net display_inst.mux_inst.d1_ALU_COUT_1_SUM_ALU_SUM_6_I0_LUT3_I0_F_MUX2_LUT5_I0_O_ALU_SUM_COUT_ALU_COUT_1_SUM_MUX2_LUT7_O_I0 budget 0.496453 ns (24,7) -> (24,7)
-Info:                Sink display_inst.mux_inst.d1_ALU_COUT_1_SUM_ALU_SUM_6_I0_LUT3_I0_F_MUX2_LUT5_I0_O_ALU_SUM_COUT_ALU_COUT_1_SUM_MUX2_LUT7_O_LC.I0
+Info:  0.4 45.1  Source display_inst.anodo_LUT2_I0_2_F_MUX2_LUT7_O_I0_MUX2_LUT6_O_LC.OF
+Info:  0.3 45.4    Net display_inst.anodo_LUT2_I0_2_F_MUX2_LUT7_O_I0 budget 0.480970 ns (18,8) -> (18,8)
+Info:                Sink display_inst.anodo_LUT2_I0_2_F_MUX2_LUT7_O_LC.I0
 Info:                Defined in:
 Info:                  /home/adonay/Downloads/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:163.9-163.11
-Info:  0.5 45.7  Source display_inst.mux_inst.d1_ALU_COUT_1_SUM_ALU_SUM_6_I0_LUT3_I0_F_MUX2_LUT5_I0_O_ALU_SUM_COUT_ALU_COUT_1_SUM_MUX2_LUT7_O_LC.OF
-Info:  1.4 47.2    Net display_inst.mux_inst.d1_ALU_COUT_1_SUM_ALU_SUM_6_I0_LUT3_I0_F_MUX2_LUT5_I0_O[5] budget 0.496453 ns (24,7) -> (24,13)
-Info:                Sink display_inst.mux_inst.d1_ALU_COUT_1_SUM_ALU_SUM_6_I0_LUT3_I0_F_MUX2_LUT5_I0_O_ALU_SUM_COUT_ALU_COUT_2_SUM_MUX2_LUT5_S0_O_MUX2_LUT5_O_1_I1_LUT4_F_LC.A
+Info:  0.5 46.0  Source display_inst.anodo_LUT2_I0_2_F_MUX2_LUT7_O_LC.OF
+Info:  1.8 47.7    Net display_inst.anodo_LUT2_I0_1_F[3] budget 0.480970 ns (18,8) -> (19,11)
+Info:                Sink display_inst.anodo_LUT4_I2_1_LC.D
 Info:                Defined in:
 Info:                  /home/adonay/Downloads/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:130.20-130.21
-Info:  1.0 48.2  Source display_inst.mux_inst.d1_ALU_COUT_1_SUM_ALU_SUM_6_I0_LUT3_I0_F_MUX2_LUT5_I0_O_ALU_SUM_COUT_ALU_COUT_2_SUM_MUX2_LUT5_S0_O_MUX2_LUT5_O_1_I1_LUT4_F_LC.F
-Info:  0.3 48.5    Net display_inst.mux_inst.d1_ALU_COUT_1_SUM_ALU_SUM_6_I0_LUT3_I0_F_MUX2_LUT5_I0_O_ALU_SUM_COUT_ALU_COUT_2_SUM_MUX2_LUT5_S0_O_MUX2_LUT5_O_1_I1 budget 0.429759 ns (24,13) -> (24,13)
-Info:                Sink display_inst.mux_inst.d1_ALU_COUT_1_SUM_ALU_SUM_6_I0_LUT3_I0_F_MUX2_LUT5_I0_O_ALU_SUM_COUT_ALU_COUT_2_SUM_MUX2_LUT5_S0_O_MUX2_LUT5_O_1_LC.I1
+Info:  0.6 48.3  Source display_inst.anodo_LUT4_I2_1_LC.F
+Info:  0.3 48.7    Net display_inst.anodo_LUT4_I2_1_F budget 0.415178 ns (19,11) -> (19,11)
+Info:                Sink display_inst.anodo_LUT2_I1_F_MUX2_LUT5_I0_LC.I1
 Info:                Defined in:
 Info:                  /home/adonay/Downloads/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:151.13-151.15
-Info:  0.2 48.7  Source display_inst.mux_inst.d1_ALU_COUT_1_SUM_ALU_SUM_6_I0_LUT3_I0_F_MUX2_LUT5_I0_O_ALU_SUM_COUT_ALU_COUT_2_SUM_MUX2_LUT5_S0_O_MUX2_LUT5_O_1_LC.OF
-Info:  5.7 54.5    Net display_inst.mux_inst.d1_ALU_COUT_1_SUM_ALU_SUM_6_I0_LUT3_I0_F_MUX2_LUT5_I0_O_ALU_SUM_COUT_ALU_COUT_2_SUM_MUX2_LUT5_S0_O[0] budget 0.429759 ns (24,13) -> (32,26)
-Info:                Sink display_inst.mux_inst.decoder_inst.seg_LUT4_F_6_LC.B
+Info:  0.2 48.8  Source display_inst.anodo_LUT2_I1_F_MUX2_LUT5_I0_LC.OF
+Info:  7.0 55.9    Net display_inst.anodo_LUT2_I1_F_MUX2_LUT5_I0_O[1] budget 0.415178 ns (19,11) -> (31,26)
+Info:                Sink display_inst.mux_inst.decoder_inst.seg_LUT4_F_6_LC.A
 Info:                Defined in:
 Info:                  /home/adonay/Downloads/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:130.20-130.21
-Info:  1.1 55.6  Source display_inst.mux_inst.decoder_inst.seg_LUT4_F_6_LC.F
-Info:  2.7 58.3    Net display_inst.seven[0] budget 0.355515 ns (32,26) -> (40,28)
+Info:  1.0 56.9  Source display_inst.mux_inst.decoder_inst.seg_LUT4_F_6_LC.F
+Info:  2.9 59.8    Net display_inst.seven[0] budget 0.373858 ns (31,26) -> (40,28)
 Info:                Sink seven_OBUF_O_6$iob.I
 Info:                Defined in:
 Info:                  ../design/system_top.sv:104.31-114.6
 Info:                  ../design/display_result_controller.sv:14.24-14.29
-Info: 22.3 ns logic, 36.0 ns routing
+Info: 22.7 ns logic, 37.1 ns routing
 
-Info: Max frequency for clock 'display_inst.clk': 27.54 MHz (PASS at 27.00 MHz)
+Info: Max frequency for clock 'display_inst.clk': 29.28 MHz (PASS at 27.00 MHz)
 
-Info: Max delay <async>                  -> <async>                 : 9.58 ns
-Info: Max delay <async>                  -> posedge display_inst.clk: 2.72 ns
-Info: Max delay posedge display_inst.clk -> <async>                 : 58.29 ns
+Info: Max delay <async>                  -> <async>                 : 10.54 ns
+Info: Max delay <async>                  -> posedge display_inst.clk: 3.35 ns
+Info: Max delay posedge display_inst.clk -> <async>                 : 59.78 ns
 
 Info: Slack histogram:
 Info:  legend: * represents 10 endpoint(s)
 Info:          + represents [1,10) endpoint(s)
-Info: [-21249, -18357) |+
-Info: [-18357, -15465) |**+
-Info: [-15465, -12573) | 
-Info: [-12573,  -9681) |+
-Info: [ -9681,  -6789) |+
-Info: [ -6789,  -3897) |+
-Info: [ -3897,  -1005) |*+
-Info: [ -1005,   1887) |***+
-Info: [  1887,   4779) |****+
-Info: [  4779,   7671) |*******+
-Info: [  7671,  10563) |*******+
-Info: [ 10563,  13455) |*****+
-Info: [ 13455,  16347) |*******+
-Info: [ 16347,  19239) |*********+
-Info: [ 19239,  22131) |********+
-Info: [ 22131,  25023) |*****+
-Info: [ 25023,  27915) |*******+
-Info: [ 27915,  30807) |*********************+
-Info: [ 30807,  33699) |*******************+
-Info: [ 33699,  36591) |************************************************************ 
+Info: [-22745, -19778) |+
+Info: [-19778, -16811) |**+
+Info: [-16811, -13844) | 
+Info: [-13844, -10877) | 
+Info: [-10877,  -7910) |+
+Info: [ -7910,  -4943) |+
+Info: [ -4943,  -1976) |*+
+Info: [ -1976,    991) |***+
+Info: [   991,   3958) |******+
+Info: [  3958,   6925) |*****+
+Info: [  6925,   9892) |**************+
+Info: [  9892,  12859) |*****+
+Info: [ 12859,  15826) |********+
+Info: [ 15826,  18793) |********+
+Info: [ 18793,  21760) |********+
+Info: [ 21760,  24727) |*****+
+Info: [ 24727,  27694) |*********+
+Info: [ 27694,  30661) |********************+
+Info: [ 30661,  33628) |******************+
+Info: [ 33628,  36595) |************************************************************ 
 
 Info: Program finished normally.
