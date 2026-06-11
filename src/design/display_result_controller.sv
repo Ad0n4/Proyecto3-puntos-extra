@@ -17,6 +17,7 @@ module display_result_controller (
 
     logic [6:0] selected_result;
     logic [6:0] display_value;
+    logic [6:0] display_mod100;
 
     logic [3:0] tens;
     logic [3:0] ones;
@@ -29,9 +30,16 @@ module display_result_controller (
     );
 
     assign display_value = (show_input_i) ? current_value_i : selected_result;
+    
+    always_comb begin
+        if (display_value >= 7'd100)
+            display_mod100 = display_value - 7'd100;
+        else
+            display_mod100 = display_value;
+    end
 
     bin_to_bcd bcd_inst (
-        .bin_i(display_value[5:0]),
+        .bin_i (display_mod100),
         .tens_o (tens),
         .ones_o (ones)
     );
